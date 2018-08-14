@@ -1,0 +1,114 @@
+.p9
+{
+    FONT-SIZE: 9pt
+}
+.grayshadow
+{
+    FILTER: DropShadow(Color=gray,offX=1,offY=1,Positive=true)
+}
+
+A.left
+{
+	color: white;
+}
+A.left:visited
+{
+	color: white;
+}
+A.left:hover
+{
+	color: yellow;
+}
+.singleboarder
+{
+    BORDER-BOTTOM: #4a3163 1px solid;
+    BORDER-LEFT: #4a3163 1px solid;
+    BORDER-RIGHT: #4a3163 1px solid;
+    BORDER-TOP: #4a3163 1px solid;
+    FONT-SIZE: 9pt
+}
+
+BODY {
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	
+	FONT-SIZE: 9pt; FONT-FAMILY:   
+	SCROLLBAR-FACE-COLOR: #386CA0;
+	SCROLLBAR-HIGHLIGHT-COLOR: white;
+	SCROLLBAR-SHADOW-COLOR: #336699;
+	SCROLLBAR-ARROW-COLOR: black;
+	SCROLLBAR-BASE-COLOR:#386CA0;
+	scrollbar-3d-light-color: White;
+	scrollbar-dark-shadow-color: #336699
+}
+
+INPUT {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; WORD-BREAK: break-all; FONT-FAMILY:   
+}
+FONT {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; WORD-BREAK: break-all; FONT-FAMILY:   
+}
+SELECT {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; WORD-BREAK: break-all; FONT-FAMILY:   
+}
+OPTION {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; WORD-BREAK: break-all; FONT-FAMILY:   
+}
+TEXTAREA {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; WORD-BREAK: break-all; FONT-FAMILY:   
+}
+FORM {
+	TABLE-LAYOUT: fixed; FONT-SIZE: 12px; WORD-BREAK: break-all; FONT-FAMILY:   
+}
+SELECT {
+	COLOR: #000000; BACKGROUND-COLOR: #ffffff
+}
+
+INPUT.radio {
+	BACKGROUND: paleturquoise; COLOR: #000000
+}
+.singlebtn {  background: #cccccc; border-bottom: #665b8e 1px solid; border-left: #ffffff 1px solid; border-right: #665b8e 1px solid; border-top: #ffffff 1px solid; color: #333333; cursor: hand; font-family: "MS Shell Dlg", "Tahoma", "  "; font-size: 12px; height: 20px; padding: 1px}
+.glow
+{
+    FILTER: glow(color=#ffff00,strength=3)
+}
+.tableframe_gray{
+    border-right-width: 1px;
+	border-left-width: 1px;
+	border-bottom-width: 1px;
+	border-top-width: 1px;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-bottom-style: solid;
+	border-top-style: solid;
+	border-right-color: #cccccc;
+	border-left-color: #cccccc;
+	border-bottom-color: #cccccc;
+	border-top-color: #cccccc;
+}
+TABLE {
+	BORDER-TOP: 0px; BORDER-LEFT: 0px; BORDER-BOTTOM: 1px;
+	FONT-SIZE: 12px;
+}
+TD {
+	BORDER-RIGHT: 0px; BORDER-TOP: 0px;
+	FONT-SIZE: 12px;
+}
+.table_banner
+{
+width:98%;
+border: 1px #2B7CBF solid; 
+}
+.table_nav
+{
+	background-image:url("forum/images/nav_tile.gif");
+	background-repeat : repeat-x;
+}
+TABLE.quote {
+	border: thin dashed;
+}
+table.watermark {
+	border-collapse:collapse;
+	border: 1px #d3d3d3 solid; 
+}

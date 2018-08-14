@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <note>
+        <err_sms_not_available desc="答题不能通过短信，只能通过PC客户端或智能手机终端">答题不能通过短信，只能通过PC客户端</err_sms_not_available>
+        <info_create_account desc="系统已自动为您创建了帐号，您的帐号是：%s 密码是：%s">系统已自动为您创建了帐号，您的帐号是：%s 密码是：%s</info_create_account>
+        <success_answer desc="答题正确">答题正确</success_answer>
+        <err_answer desc="答题错误">答题错误</err_answer>
+        <err_max_day_count desc="本日您答题的正确数已经超过了最大限制">本日您答题的正确数已经超过了最大限制%s，请改日再来答题</err_max_day_count>
+        <err_max_month_count desc="本月您答题的正确数已经超过了最大限制">本月您答题的正确数已经超过了最大限制%s，请下月再来答题</err_max_month_count>
+    </note>
+    <exam>
+        <max_count_per_month desc="每月答题正确最大数量">10</max_count_per_month>
+        <max_count_per_day desc="每日答题正确最大数量">10</max_count_per_day>
+        <action_expire_minute desc="动作的超时时间，如当答题时，用户回答超过了时间限制">10</action_expire_minute>
+        <menu_code desc="用户答题时应选择的菜单指令">r</menu_code>
+    </exam>
+</config>
+

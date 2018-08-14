@@ -1,0 +1,608 @@
+/* CSS Document */
+body{
+	margin:0;
+	padding:0;
+	background:url(images/bg.gif) 0 0 repeat-x #C1F094;
+	color:#000;
+	}
+div,td {
+font-size:12px;
+}
+
+#bodypan ul li a:link,
+#bodypan ul li a:visited {
+font-size:12px;
+color:#000000;
+padding-left:10px;
+text-decoration:none;
+}
+
+#bodypan ul li a:hover {
+font-size:12px;
+color:#ff0000;
+padding-left:10px;
+text-decoration:none;
+}
+
+div, h1, h2, h3, p, ul, img, form, input{
+	margin:0;
+	padding:0;
+	}
+
+ul{
+	list-style-type:none;
+	}
+
+.spacer{
+	clear:both;
+	font-size:0;
+	line-height:0;
+	}
+
+/* Container Panel */
+#container{
+	position:relative;
+	margin:0 auto;
+	padding:0 0 50px;
+	width:917px;
+	background:url(images/header.jpg) 0 0 no-repeat;
+	
+	}
+
+#tree{
+	position:absolute;
+	margin:0 0 0 -20px;
+	padding:0 0 99px;
+	width:20px;
+	background:url(images/tree.gif) 0 0 no-repeat;
+	}	
+
+
+/* Header Panel */
+#header{
+	position:relative;
+	width:917px;
+	height:284px;
+	}
+
+#header img.logo{
+	position:absolute;
+	top:152px;
+	left:88px;
+	}
+
+#header ul{
+	width:633px;
+	float:right;
+	margin:69px 0 0 0;
+	}	
+
+#header ul li{
+	float:left;
+	width:98px;
+	padding:0 4px 0 0;
+	font:bold 13px/25px Arial, Helvetica, sans-serif;
+	}
+
+#header ul li a{
+	display:block;
+	width:98px;
+	height:25px;
+	text-align:center;
+	background:url(images/nav-bg.gif) 0 0 no-repeat #000;
+	color:#fff;
+	text-decoration:none;
+	}	
+
+#header ul li a:hover{
+	background:url(images/nav-hover-bg.gif) 0 0 no-repeat #000;
+	color:#FFC600;
+	}		
+
+#header ul li span{
+	display:block;
+	width:98px;
+	height:25px;
+	text-align:center;
+	background:url(images/nav-hover-bg.gif) 0 0 no-repeat #000;
+	color:#FFC600;
+	}		
+
+
+/* Left Panel */
+#bodypan{
+	width:640px;
+	}
+	 
+#bodypan h2{
+	padding:19px 0 0 0;
+	font:bold 32px/68px Arial, Helvetica, sans-serif;
+	color:#0A3334;
+	background-color:inherit;
+	}
+
+#bodypan h2.first{
+	/*background:url(images/icon1.jpg) 0 30px no-repeat;*/
+	}	
+
+#bodypan h2.second{
+/*	background:url(images/icon2.jpg) 0 22px no-repeat;*/
+	}	
+
+#bodypan h3{
+	padding:0 0 8px;
+	font:bold 17px/22px Arial, Helvetica, sans-serif;
+	color:#59971D;
+	background-color:inherit;
+	}
+
+#bodypan p{
+	font:13px/20px Arial, Helvetica, sans-serif;
+	color:#020400;
+	background-color:inherit;
+	padding:0 0 20px;
+	}
+
+#bodypan p span{
+	color:#020400;
+	background:#DAF6B8;
+	}
+	
+#bodypan p a{
+	color:#020400;
+	background-color:inherit;
+	text-decoration:underline;
+	}
+	
+#bodypan p a:hover{
+	color:#59971D;
+	background-color:inherit;
+	text-decoration:none;
+	}
+
+#bodypan p.comment{
+	font:bold 15px/22px Arial, Helvetica, sans-serif;
+	padding:0 0 22px 20px;
+	color:#59971D;
+	background-color:inherit;
+	background:url(images/icon3.gif) 0 5px no-repeat;
+	
+	} 	
+
+#bodypan ul.comments{
+	width:637px;
+	padding:5px 0 0;
+	float:left;
+	}
+
+#bodypan ul li.user{
+	float:left;
+	width:395px;
+	height:27px;
+	padding:0 0 0 36px;
+	margin:0 12px 0 0;
+	background:url(images/icon4.gif) 12px 7px no-repeat #DAF6B8;
+	font:10px/27px Arial, Helvetica, sans-serif;
+	color:inherit;
+	}
+
+#bodypan ul li.user a{
+	color:#0A3334;
+	background:#DAF6B8;
+	text-decoration:none;
+	}		
+			
+#bodypan ul li.user a:hover{
+	color:#796119;
+	background:#DAF6B8;
+	text-decoration:none;
+	}	
+
+#bodypan ul li.more{
+	border:1px solid #D27D00;
+	margin:0 0 0 4px;
+	float:left;
+	}
+
+#bodypan ul li.more a{
+	display:block;			
+	background:url(images/button-bg.gif) 0 0 repeat-x #F1A524;
+	font:bold 11px/25px Arial, Helvetica, sans-serif;
+	text-align:center;
+	padding:0 15px;
+	color:#000;
+	text-decoration:none;
+
+	}
+	
+#bodypan ul li.more a:hover{
+	background:#F1A524;
+	color:#000;
+	}
+
+
+#block1 p.pad{
+	padding:0 20px 20px 0;
+	}
+
+
+/* Right Panel */
+#rightPanel{
+position:absolute;
+	width:258px;
+	top:288px;
+	right:0;
+	}
+#rightpan{
+	/*position:absolute;*/
+	width:258px;
+	right:0;
+	color:#50653B;
+	background:#fff;
+	padding:12px 0 43px;
+	float:left;
+}
+
+#rightpan2{
+	/*position:absolute;*/
+width:258px;
+float:left;
+background:#fff;
+height:162px;
+margin:17px 0 0 0;
+}
+
+
+#botpan{
+width:258px;
+float:left;
+background:#fff;
+height:162px;
+margin:17px 0 0 0;
+}
+#botpan	a{
+font:italic 15px/18px Arial, Helvetica, sans-serif;
+color:#fff;
+background-color:inherit;
+margin:111px 0 0 173px;
+float:left;
+}
+#botpan	a:hover{
+text-decoration:none;
+}
+#rightpan h2.memberlogin{
+	font:bold 16px/27px Arial, Helvetica, sans-serif;
+	width:184px;
+	margin:0 auto;
+	padding:0 0 0 44px;
+	color:#fff;
+	background:url(images/member-login.gif) 0 0 no-repeat #ffffef;
+	}
+
+#rightpan form{
+	width:208px;
+	margin:0 auto;
+	}
+
+#rightpan form label{
+	display:block;
+	padding:5px 0 0;
+	font:bold 12px/19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+	background:#fff;
+	float:left;
+	}
+
+#rightpan form label.remember{
+	display:block;
+	float:left;
+	width:100px;
+	font:11px/15px Arial, Helvetica, sans-serif;
+	color:#000;
+	background:#fff;
+	padding:7px 0 0 0;
+	}
+	#rightpan form input.checkbox{
+	width:13px;
+	height:13px;
+	padding:0;
+	float:left;
+	margin:8px 6px 0 0;
+	}	
+
+#rightpan form input{
+	width:206px;
+	height:17px;
+	border:1px solid #B3B3B3;
+	color:#666;
+	background:#fff;
+	padding:2px 0;
+	font:11px/14px Arial, Helvetica, sans-serif;
+	float:left;
+	}	
+
+
+
+#rightpan form input.login{
+	width:62px;
+	height:19px;
+	border:0;
+	padding:0 0 0 0;
+	margin:7px 0 0;
+	float:right;
+	}	
+
+#rightpan h2.testimonial{
+	font:bold 25px/30px Arial, Helvetica, sans-serif;
+	margin:20px 19px 0;
+	color:#0A3334;
+	background:url(images/icon5.gif) 0 0 no-repeat #fff;
+	padding:0 0 0 41px;
+	}
+
+#rightpan h3{
+	font:bold 25px/28px Arial, Helvetica, sans-serif;
+	margin:12px 0 0;
+	color:#BFBFBF;
+	background:#fff;
+	padding:0 19px;
+	}
+
+#rightpan p{
+	font:11px/13px Arial, Helvetica, sans-serif;
+	color:#50653B;
+	background:url(images/quote.gif) 182px 14px no-repeat #fff;
+	padding:0 19px 20px;
+	margin:0 auto; 
+	}
+
+#rightpan a.name{
+	display:block;
+	margin:0 auto;
+	padding:0 0 0 4px;
+	width:216px;
+	height:17px;
+	font:bold 11px/17px Arial, Helvetica, sans-serif;
+	color:#486D5B;
+	background:#DAF6B8;
+	text-decoration:none;
+	}
+
+#rightpan a.name:hover{
+	color:#000;
+	background:#C1F091;
+	}
+
+#rightpan img.banner{
+	margin:44px 0 0;
+	display:block;
+	border-top:14px solid #C1F094;
+	}
+#rightpan img{
+background:url(images/banner-webdesigner.jpg) no-repeat 0 0;
+width:2588px;
+height:162px;
+}
+		
+#rightpan2 h2.memberlogin{
+	font:bold 16px/27px Arial, Helvetica, sans-serif;
+	width:184px;
+	margin:0 auto;
+	padding:0 0 0 44px;
+	color:#fff;
+	background:url(images/member-login.gif) 0 0 no-repeat #ffffef;
+	}
+
+#rightpan2 form{
+	width:208px;
+	margin:0 auto;
+	}
+
+#rightpan2 form label{
+	display:block;
+	padding:5px 0 0;
+	font:bold 12px/19px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#000;
+	background:#fff;
+	float:left;
+	}
+
+#rightpan2 form label.remember{
+	display:block;
+	float:left;
+	width:100px;
+	font:11px/15px Arial, Helvetica, sans-serif;
+	color:#000;
+	background:#fff;
+	padding:7px 0 0 0;
+	}
+	#rightpan2 form input.checkbox{
+	width:13px;
+	height:13px;
+	padding:0;
+	float:left;
+	margin:8px 6px 0 0;
+	}	
+
+#rightpan2 form input{
+	width:206px;
+	height:17px;
+	border:1px solid #B3B3B3;
+	color:#666;
+	background:#fff;
+	padding:2px 0;
+	font:11px/14px Arial, Helvetica, sans-serif;
+	float:left;
+	}	
+
+
+
+#rightpan2 form input.login{
+	width:62px;
+	height:19px;
+	border:0;
+	padding:0 0 0 0;
+	margin:7px 0 0;
+	float:right;
+	}	
+
+#rightpan2 h2.testimonial{
+	font:bold 25px/30px Arial, Helvetica, sans-serif;
+	margin:20px 19px 0;
+	color:#0A3334;
+	background:url(images/icon5.gif) 0 0 no-repeat #fff;
+	padding:0 0 0 41px;
+	}
+
+#rightpan2 h3{
+	font:bold 25px/28px Arial, Helvetica, sans-serif;
+	margin:12px 0 0;
+	color:#BFBFBF;
+	background:#fff;
+	padding:0 19px;
+	}
+
+#rightpan2 p{
+	font:11px/13px Arial, Helvetica, sans-serif;
+	color:#50653B;
+	background:url(images/quote.gif) 182px 14px no-repeat #fff;
+	padding:0 19px 20px;
+	margin:0 auto; 
+	}
+
+#rightpan2 a.name{
+	display:block;
+	margin:0 auto;
+	padding:0 0 0 4px;
+	width:216px;
+	height:17px;
+	font:bold 11px/17px Arial, Helvetica, sans-serif;
+	color:#486D5B;
+	background:#DAF6B8;
+	text-decoration:none;
+	}
+
+#rightpan2 a.name:hover{
+	color:#000;
+	background:#C1F091;
+	}
+
+#rightpan2 img.banner{
+	margin:44px 0 0;
+	display:block;
+	border-top:14px solid #C1F094;
+	}
+#rightpan2 img{
+background:url(images/banner-webdesigner.jpg) no-repeat 0 0;
+width:2588px;
+height:162px;
+}
+/* Footer Panel */
+#footer{
+	position:relative;
+	background:#3E3E3E;
+	color:#000;
+	
+	}
+
+#footercontent{
+	width:917px;
+	margin:0 auto;
+	padding:0 0 22px;
+	}		
+
+#contact{
+	width:193px;
+	float:right;
+	padding:40px 0 0 50px;
+	background:url(images/icon6.gif) 0 19px no-repeat #3E3E3E;
+	font:bold 13px/16px Arial, Helvetica, sans-serif;
+	color:#6E6E6E;
+	}
+
+#contact p span{
+	color:#B2B2B2;
+	background:#3E3E3E;
+	}
+
+#footercontent ul.nav{
+	padding:28px 0 0;
+	float:left;
+	width:674px;
+	}
+
+#footercontent ul.nav li{
+	font:bold 13px/16px Arial, Helvetica, sans-serif;
+	float:left;
+	padding:0 10px;
+	background:url(images/footer-div.gif) 100% 3px no-repeat;
+	}
+
+#footercontent ul.nav li.nobg{
+	background:none;
+	}	
+
+#footercontent ul.nav li.nopad{
+	padding:0 10px 0 0; 
+	}	
+
+#footercontent ul.nav li a{
+	color:#fff;
+	background:#3E3E3E;
+	text-decoration:none;
+	}
+
+#footercontent ul.nav li a:hover{
+	color:#E3E3AB;
+	background:#3E3E3E;
+	}				
+
+#footercontent p.copy{
+	font:bold 11px/30px Arial, Helvetica, sans-serif;
+	color:#9E9E9E;
+	background:#3E3E3E;
+	}
+
+#footercontent p.powered{
+	font:bold 12px/14px Arial, Helvetica, sans-serif;
+	color:#E3E3AB;
+	background:#3E3E3E;
+	}
+
+#footercontent p.powered a{
+	color:#E3E3AB;
+	background:#3E3E3E;
+	text-decoration:underline;
+	}
+
+#footercontent p.powered a:hover{
+	color:#fff;
+	background:#3E3E3E;
+	text-decoration:none;
+	}				
+
+#footercontent ul.valid{
+	padding:14px 0 0;
+	}
+
+#footercontent ul.valid li{
+	float:left;
+	width:73px;
+	margin:0 7px 0 0;
+	padding:0 0 0 30px;
+	background:url(images/footer-button.gif) 0 0 no-repeat;
+	font:bold 12px/26px Arial, Helvetica, sans-serif;
+	}
+
+#footercontent ul.valid li a{
+	color:#000;
+	background-color:inherit;
+	text-decoration:none;
+	}			
+
+#footercontent ul.valid li a:hover{
+	color:#fff;
+	background-color:inherit;
+	text-decoration:none;
+	}								
+

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<plugin code="img">
+		<author></author>
+		<classUnit>cn.js.fan.module.cms.plugin.img.ImgUnit</classUnit>		
+		<version>1.0</version>
+		<jar></jar>
+		<resource>res.cms.plugin.img</resource>
+		<type>dir</type>
+		<adminEntrance></adminEntrance>
+		<page>
+			<add>cms/plugin/img/add.jsp</add>
+			<edit>cms/plugin/img/edit.jsp</edit>
+			<view>img_show.jsp</view>
+		</page>
+		<skins>
+			<skin code="default">
+				<name>默认皮肤</name>
+				<author></author>
+				<path>skin/default</path>
+			</skin>
+		</skins>
+	</plugin>
+	<plugin code="software">
+		<author></author>
+		<classUnit>cn.js.fan.module.cms.plugin.software.SoftwareUnit</classUnit>		
+		<version>1.0</version>
+		<jar></jar>
+		<resource>res.cms.plugin.software</resource>
+		<type>dir</type>
+		<adminEntrance>plugin/software/admin/manager.jsp</adminEntrance>
+		<page>
+			<add>cms/plugin/software/add.jsp</add>
+			<edit>cms/plugin/software/edit.jsp</edit>
+			<view>software_show.jsp</view>
+		</page>
+		<skins>
+			<skin code="default">
+				<name>默认皮肤</name>
+				<author></author>
+				<path>skin/default</path>
+			</skin>
+		</skins>
+	</plugin>	
+</config>

@@ -1,0 +1,70 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>用户 - {$Global.AppName}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/cwbbs/blog/template/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="content">
+    <div class="top">
+		<div class="top_logo"><img src="/cwbbs/blog/template/images/logo.gif" / ></div>
+		<div class="Top_nav">{$blog.nav}</div>
+		<div class="top_right"><img src="/cwbbs/blog/template/images/image_03.png" />&nbsp;&nbsp;&nbsp;&nbsp;<a>设为首页</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>加入收藏</a></div>
+		<div class="top_search">
+		<form name="formSearch" method="post" action="listmsg.jsp" style="margin:0px; padding:0px;" onSubmit="return formSearch_onSubmit()">
+			<div><img src="/cwbbs/blog/template/images/magnifier.gif" /></div>
+			<div style="margin-top:8px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		        <select id="searchType" name="searchType">
+                <option value="msgTitle" selected="selected">标题</option>
+                <option value="msgContent">内容</option>
+				<option value="userNick">搜索博主</option>							
+                </select>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input name="keyword" />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+			<div style="margin-top:8px;"><input type="image" src="/cwbbs/blog/template/images/search_all_site.gif" /></div>
+		</form>
+	  </div>
+	</div>
+	<div class="middle">
+        <div class="middleAd"><img src="/cwbbs/blog/template/images/middleAd.png" /></div>
+		<div class="middleMain">
+			<ul>
+<!--begin:list.blogUser pageSize=20-->
+<div class="list_top">找到符合条件的记录 {@paginator.total} 条　每页显示 {@paginator.pageSize} 条　页次 {@paginator.currentPage}/{@paginator.totalPages}</div>
+	  			<li style="height:24px">
+	  				<span style="float:right; padding-right:5px;">[{@addDate(format=yyyy-MM-dd HH:mm:ss)}]</span><a href="myblog.jsp?blogId={@id}">{@title(len=30,htmlencode=y)}</a>
+	  <table border="0" cellpadding="0" cellspacing="0" style="width:100%; height:1px; background-image:url(images/dot.gif)">
+	    <tr><td></td></tr></table>
+	  			</li>
+<div>{@paginator.currentPageBlock}</div>
+<!--end:list.blogUser-->
+			</ul>			  		
+		</div>
+		<div class="middleSideBar">
+			<div class="middleSideBar_outsideBox_styleOne">
+			  <iframe width="260" height="232" hspace=0 vspace=0 frameborder=0 marginwidth="0" marginheight="0" scrolling="no" src="iframe_login.jsp"></iframe>
+			</div>
+			<div class="middleSideBar_outsideBox_styleTwo"></div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(/cwbbs/blog/template/images/top_boyou.png)"></div>
+			</div>			
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(/cwbbs/blog/template/images/top_boxing.png)"></div>
+			</div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(/cwbbs/blog/template/images/top_quanzi.png)"></div>
+				<div>{$blog.group}</div>
+			</div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(/cwbbs/blog/template/images/top_bokemoban.png)"></div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom"></div>
+</div>
+</body>
+</html>

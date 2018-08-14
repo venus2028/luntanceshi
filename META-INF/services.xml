@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<service>
+	<description>云网论坛WebService</description>
+	<parameter name="ServiceClass">com.redmoon.forum.sso.SSOWebService</parameter>
+	<operation name="syncUserGroup">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+	</operation>
+	<operation name="delUserGroup">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+	</operation>
+	<operation name="syncUser">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+	</operation>
+	<operation name="delUser">
+		<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver" />
+	</operation>
+</service>

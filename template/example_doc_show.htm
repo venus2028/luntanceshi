@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>云网论坛 - localhost</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" href="index.css" type="text/css">
+<style type="text/css">
+<!--
+.STYLE1 {
+	color: #FF6600;
+	font-weight: bold;
+}
+.STYLE2 {color: #FFFFFF}
+.STYLE3 {color: #525152}
+-->
+</style>
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<TABLE WIDTH=760 BORDER=0 align="center" CELLPADDING=0 CELLSPACING=0>
+  <TR>
+    <TD height="183" COLSPAN=4 valign="top"><table width="100%" height="6" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+	{$nav.display}	
+    <table width="87%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="/cwbbs/images/main_7.jpg" width=385 height=23 alt=""></td>
+      </tr>
+    </table>
+      <p>
+      	version={$Global.version}<BR>
+      	AppName={$Global.AppName(len=2)}<BR>
+	  文章标题（id取自request)：{$doc.id(request.id).title}
+	  文章内容：{$doc.id(2).content(pageNum=1)}<BR>
+	  文章标题2：{$doc.id(1).title(len=3)}<BR>
+	  文章内容2：{$doc.id(1).content(page=1)} 
+<!--begin:list.doc dirCode=first,start=0,end=2-->
+      <table><tr><td>找到符合条件的记录 {@paginator.total} 条　每页显示 {@paginator.pageSize} 条　页次 {@paginator.currentPage}/{@paginator.totalPages}</td></tr></table>
+	  <li><a href="?id={@id}">{@title(len=1)} </a></li>
+<table><tr><td>{@paginator.currentPageBlock}</td></tr></table>
+<!--end:list.doc-->
+	  </p>
+	  <table width="98%" border="0" cellspacing="0" cellpadding="2">
+    </table>    </TD>
+  </TR>
+  <TR>
+    <TD COLSPAN=4><IMG SRC="../../images/main_30.jpg" WIDTH=760 HEIGHT=1 ALT=""></TD>
+  </TR>
+  <TR>
+    <TD width="383"><IMG SRC="../../images/spacer.gif" WIDTH=383 HEIGHT=1 ALT=""></TD>
+    <TD width="2"><IMG SRC="../../images/spacer.gif" WIDTH=2 HEIGHT=1 ALT=""></TD>
+    <TD width="3"><IMG SRC="../../images/spacer.gif" WIDTH=3 HEIGHT=1 ALT=""></TD>
+    <TD width="180"><IMG SRC="../../images/spacer.gif" WIDTH=5 HEIGHT=1 ALT=""></TD>
+  </TR>
+</TABLE>
+<META http-equiv=Content-Type content="text/html;charset=utf-8">
+<table align="center" style="display:"><tr><td>
+</td></tr></table>
+</body>
+</html>

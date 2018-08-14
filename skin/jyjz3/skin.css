@@ -1,0 +1,307 @@
+/* CSS Document */
+body {margin:0px;padding:0px}
+
+.mod{
+ width:400px; height:202px; padding:10px;  overflow:hidden;text-overflow:clip;word-break:break-all;text-indent:25px;font-size:12px;
+}
+.mod_1{
+width:228px; height:215px;padding:10px;  overflow:hidden;text-overflow:clip;word-break:break-all;text-indent:25px;font-size:12px;
+}
+.img{
+height:100px;overflow:hidden;
+}
+a {
+	font-size: 14px;
+	text-decoration: none;
+	color:#000000;
+	font-family:"宋体";}
+a:hover {
+	color: #FF6600;
+}
+
+#menu {
+    padding-right: 20px;
+	padding-left: 60px;
+	padding-top:15px;
+	height: 40px;
+	line-height: 40px;
+	text-align: left;
+
+
+}
+.R_L
+{
+margin:10px;width:265px; height:222px;margin-top:5px; padding-top:20px; padding-left:50px;word-break:break-all; overflow: hidden; 
+color:#990000;
+font-size:22px;
+}
+.R_L a:link,
+.R_L a:visited,
+.R_L a:hover {
+color:#990000;
+text-decoration:none;
+font-size:22px;
+line-height:1.8;
+font-weight:bold;
+}
+.R_R
+{
+ margin:10px;width:405px; height:222px;margin-top:30px; padding-top:10px; overflow:hidden; word-break:break-all; text-indent:25px;
+}
+.R_L_l
+{
+ width:345px; height:152px;margin-top:60px; margin-left:18px; padding-top:10px; padding-left:10px;word-break:break-all; overflow: hidden;text-overflow: ellipsis; 
+}
+.R_R_l {
+ width:345px; height:152px;margin-top:60px; margin-left:18px; padding-top:10px; padding-left:10px;word-break:break-all; overflow: hidden;text-overflow: ellipsis;  
+}
+.R_R_r
+{
+ width:345px; height:152px;margin-top:60px; margin-left:10px; padding-top:10px; padding-left:10px;word-break:break-all; overflow: hidden; 
+
+}
+.L_L
+{
+ margin:10px;width:215px; height:222px; margin-left:15px; padding-left:10px; overflow:hidden;word-break:break-all; text-indent:25px;
+ text-overflow: ellipsis;
+}
+
+.pic
+{
+  width:645px; height:102px;margin-top:13px; margin-left:78px; padding-top:20px; padding-left:10px; overflow: hidden;
+}
+#div1{
+ color:#FF5b02;
+ margin-top:40px;
+ float:left;
+ margin-left:10px;
+}
+#picture
+{
+  padding-bottom:20PX; padding-left:35px; padding-top:40px; padding-right:10px
+
+}
+#picture1
+{
+  padding-left:10px
+
+}
+
+
+#fontpad
+{
+ padding-top:20px; padding-left:10px; padding-right:10px; padding-bottom:10px
+}
+
+#note
+{
+ padding-top:10px
+}
+#list
+{
+ padding-bottom:10px
+}
+
+
+
+
+ul#navmenu {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ /*width: 800px; For KHTML*/
+ list-style: none;
+ height: 34px;
+}
+
+ul#navmenu li {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ float: left; /*For Gecko*/
+ display: inline;
+ list-style: none;
+ position: relative;
+ height: 20px;
+ padding-right:10px;
+}
+
+ul#navmenu ul {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ width: 120px;
+ list-style: none;
+ display: none;
+ position: absolute;
+ top: 24px;
+ left: 0;
+}
+
+ul#navmenu ul li {
+ float: none; /*For Gecko*/
+ display: block !important;
+ display: inline; /*For IE*/
+}
+
+/* Root Menu */
+ul#navmenu a {
+/*
+ border: 1px solid #FFF;
+ border-right-color: #CCC;
+ border-bottom-color: #CCC;
+ background: #EEE;
+*/ 
+ padding: 0 6px;
+ float: none !important; /*For Opera*/
+ float: left; /*For IE*/
+ display: block;
+ color: #666;
+ text-decoration: none;
+ height: auto !important;
+ height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+ /*
+ background: #CCC;
+ */
+ color: #ff5555;
+ height:22px; 
+}
+
+/* 2nd Menu */
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+ float: none;
+ background: #EEE;
+ color: #666;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+ background: #CCC;
+ color: #FFF;
+}
+
+/* 3rd Menu */
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+ background: #EEE;
+ color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+ background: #CCC;
+ color: #FFF;
+}
+
+/* 4th Menu */
+ul#navmenu li:hover li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li.iehover li a {
+ background: #EEE;
+ color: #666;
+}
+
+ul#navmenu li ul li a.fly
+{background:#eee url(images/arrow.gif) 110px 6px no-repeat;}
+ul#navmenu li ul li a.fly:hover
+{background:#ccc url(images/arrow.gif) 110px 6px no-repeat; color: #FFF}
+
+/* 4th Menu Hover */
+ul#navmenu li:hover li:hover li:hover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover li a:hover {
+ background: #CCC;
+ color: #FFF;
+}
+
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 120px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+ display: none;
+}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+ display: block;
+}
+
+.navTd ul {
+margin: 0;
+margin-top:8px;
+border: 0 none;
+padding: 0;
+list-style: none;
+}
+
+.navTd ul li {
+display: inline;
+list-style: none;
+position: relative;
+height: 22px;
+padding-right:30px;
+}
+
+.guestbook_box {
+	text-align:left;
+	padding:30px;
+	width:80%;
+	font-size:12px;
+}
+.guestbook_box div {
+	padding-bottom:20px;
+	line-height:1.5;
+}
+.pageBlock {
+text-align:right;
+width:80%;
+}
+
+.guestbook_form_table {
+border:1px #eeeeee solid;
+width:60%;
+}
+.guestbook_form_table td {
+font-size:12px;
+}
+
+.guestbook_title {
+font-size:14px;
+font-weight:bold;
+background-color: #76C46A;
+color:#ffffff;
+}
+
+.posTd {
+font-size:14px;
+font-family:"宋体";
+}
+
+#cntDiv {
+height:616px;
+overflow:auto;
+}

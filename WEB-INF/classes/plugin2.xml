@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<plugin code="alipay">
+		<author>Fan Gang-feng</author>
+		<classUnit>com.redmoon.forum.plugin2.alipay.AlipayUnit</classUnit>		
+		<resource>res.forum.plugin2.alipay</resource>
+		<adminEntrance>../plugin2/alipay/admin/manager.jsp</adminEntrance>
+		<page>
+			<addtopic>plugin2/alipay/addtopic.jsp</addtopic>
+			<edittopic>plugin2/alipay/edittopic.jsp</edittopic>
+			<addreply></addreply>
+		</page>
+		<button>alipay</button>
+		<version>1.0</version>
+		<desc></desc>
+		<skins>
+			<skin code="default">
+				<name>默认皮肤</name>
+				<author>Blue Wind</author>
+				<path>skin/default</path>
+			</skin>
+		</skins>		
+	</plugin>
+</config>
+

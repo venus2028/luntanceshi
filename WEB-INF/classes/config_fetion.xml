@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <robots>
+        <robot code="1">
+            <name>镇江人家</name>
+            <sid>630349283</sid>
+            <mobileno>13952867098</mobileno>
+            <pwd>123456</pwd>
+            <port>8999</port>
+            <cnonce>1234</cnonce>
+            <handler>com.redmoon.fetion.activity.ActivityRobotHandler</handler>
+            <isUsed>true</isUsed>
+            <welcome>欢迎参加“劲舞团”活动&#xD;
+详情请见：http://localhost:8080/cwbbs/forum/t-0-6681-1.html&#xD;
+加入方法：&#xD;
++6681或+6681 您在镇江人家论坛的呢称</welcome>
+            <help>加入方法：&#xD;
++6681或+6681 您在镇江人家论坛的呢称</help>
+            <error>错啦！</error>
+        </robot>
+        <robot code="2">
+            <name>镇江飞信</name>
+            <sid>630349283</sid>
+            <mobileno>13952867098</mobileno>
+            <pwd>fgfjrl</pwd>
+            <port>6115</port>
+            <cnonce>1234</cnonce>
+            <handler>com.redmoon.fetion.exam.ExamRobotHandler</handler>
+            <isUsed>true</isUsed>
+            <welcome>欢迎参加飞信答题活动&#xD;
+飞信机器人正在调试中,现在答题无效请稍后答题&#xD;
+$m</welcome>
+            <help>发送R，机器人将给您出题</help>
+            <error>您答错了，请发送R，机器人将给您出题</error>
+        </robot>
+    </robots>
+</config>
+

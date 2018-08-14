@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<items>
+		<item>
+			<code>cms_column</code>
+			<desc>文章栏目</desc>		
+		</item>
+		<item>
+			<code>forum_board</code>
+			<desc>论坛版块</desc>		
+		</item>
+		<item>
+			<code>blog_type</code>
+			<desc>博客分类</desc>		
+		</item>
+		<item>
+			<code>forum_plugin</code>
+			<desc>论坛插件</desc>		
+		</item>
+		<item>
+			<code>forum_miniplugin</code>
+			<desc>论坛迷你插件</desc>		
+		</item>
+		<item>
+			<code>cms_plugin</code>
+			<desc>CMS插件</desc>		
+		</item>
+		<item>
+			<code>cms_site</code>
+			<desc>子站点</desc>		
+		</item>						
+  	</items>
+</config>

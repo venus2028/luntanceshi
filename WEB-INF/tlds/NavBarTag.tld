@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  <!DOCTYPE taglib PUBLIC "-//Sun Microsystems, Inc.//DTD JSP Tag Library 1.1//EN" "http://java.sun.com/j2ee/dtds/web-jsptaglibrary_1_1.dtd">
+  
+<!-- a tag library descriptor -->
+  
+<taglib>
+   <tlibversion>1.0</tlibversion>
+   <jspversion>1.1</jspversion>
+   <shortname>Navigation</shortname>
+   <uri></uri>
+   <info>NavBarTag</info>
+
+  <tag>
+    <name>NavBarTag</name>
+    <tagclass>cn.js.fan.module.nav.NavBarTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>NavBarTag</info>
+    <attribute>
+	<name>type</name>
+	<required>true</required>
+	<rtexprvalue>true</rtexprvalue>
+    </attribute>
+  </tag>
+  <tag>
+    <name>NavElementTag</name>
+    <tagclass>cn.js.fan.module.nav.NavElementTag</tagclass>
+    <bodycontent>JSP</bodycontent>
+    <info>NavElementTag</info>
+  </tag>
+</taglib>
+

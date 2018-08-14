@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<expireDayMax>10</expireDayMax>
+	<bidFormAction>plugin/auction/bid.jsp</bidFormAction>
+	<emailAlias>镇江人家</emailAlias>
+	<email>fgf163@pub.zj.jsinfo.net</email>
+	<judge>
+		<good>10</good>
+		<common>0</common>
+		<bad>-10</bad>
+	</judge>
+	<orderNotice>
+		<subject>来自镇江人家“同城交易”的订单通知！</subject>
+		<body>&lt;B&gt;您有新订单啦！&lt;/B&gt;&lt;BR&gt;买家$buyer 卖家$seller 订单号：$orderId，&lt;a target=_blank href="http://$rootpath/forum/index.jsp">点击查看订单&lt;/a&gt;</body>
+		<ubbBody>
+		您在镇江人家有新订单啦！
+		买家$buyer 卖家$seller 订单号：$orderId 
+		[URL=$rootPath/forum/plugin/auction/showorder.jsp?orderId=$orderId]查看订单[/URL]
+		</ubbBody>
+	</orderNotice>
+	<judgeNotice>
+		<subject>来自镇江人家“同城交易”关于评分的通知！</subject>
+		<body>$user给您的评分为: $judgeDesc $credit分 订单号：$orderId，&lt;a target=_blank href="http://$rootpath/forum/index.jsp">点击查看订单&lt;/a&gt;</body>
+		<ubbBody>
+		$user给您的评分为: $judgeDesc $credit分
+		[URL=$rootPath/forum/plugin/auction/showorder.jsp?orderId=$orderId]查看订单[/URL]
+		</ubbBody>
+	</judgeNotice>
+	<skins>
+		<skin code="default">
+			<name>绿色经典</name>
+		</skin>
+		<skin code="pink">
+			<name>温馨小店</name>
+		</skin>
+		<skin code="blue">
+			<name>蓝色幻想</name>
+		</skin>		
+	</skins>	
+</config>

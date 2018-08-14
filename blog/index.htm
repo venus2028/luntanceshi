@@ -1,0 +1,270 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>博客 - 云网论坛</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="template/css.css" type="text/css" rel="stylesheet" />
+<script>
+function formSearch_onSubmit() {
+	if (formSearch.searchType.value=="msgAuthor" || formSearch.searchType.value=="msgBlogUser") {
+		formSearch.action="listbloguser.jsp";
+	}
+}
+</script>
+<script src="inc/blog.js"></script>
+</head>
+<body>
+<div class="content">
+    <div class="top">
+		<div class="Top_nav"><ul><li><a href='../index.jsp' target=_self >首页</a></li><li><a href='../forum/index.jsp' target=_self ><font color='#008888'>论坛</font></a></li><li><a href='listmsg.jsp' target=_self >日志</a></li><li><a href='user/userconfig_add.jsp?blogType=1' target=_self >团队</a></li><li><a href='listblogphoto.jsp' target=_self >相册</a></li><li><a href='listblog.jsp' target=_self >博客</a></li></ul></div>
+		<div class="top_right"><img src="template/images/image_03.png" />&nbsp;&nbsp;&nbsp;&nbsp;<a href=# onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://localhost:8080/cwbbs/blog');">设为首页</a>&nbsp;&nbsp;&nbsp;&nbsp;<a target=_top href="javascript:window.external.AddFavorite('http://localhost:8080/cwbbs/blog','云网论坛')">加入收藏</a></div>
+		<div class="top_search">
+		<form name="formSearch" method="post" action="listmsg.jsp" style="margin:0px; padding:0px;" onSubmit="return formSearch_onSubmit()">
+			<div><img src="template/images/magnifier.gif" /></div>
+			<div style="margin-top:8px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		        <select id="searchType" name="searchType">
+                <option value="msgTitle" selected="selected">标题</option>
+                <option value="msgContent">内容</option>
+				<option value="userNick">搜索博主</option>							
+                </select>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input name="keyword" />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+			<div style="margin-top:8px;"><input type="image" src="template/images/search_all_site.gif" /></div>
+		</form>
+	  	</div>
+	</div>
+	<div class="middle">
+        <div class="middleAd"><p><img alt="" border="0" src="/cwbbs/blog/template/images/middleAd.png" /></p></div>
+		<div class="middleMain">
+			<div class="middleMain_outsideBox_styleOne">
+				<div class="middleMain_insideBox_imgContainer_styleOne">
+				<script>imgUrl1="images/home/flash/blog_flash01.jpg";
+imgtext1="test";
+imgLink1="test";
+imgUrl2="images/home/flash/blog_flash02.jpg";
+imgtext2="test";
+imgLink2="test";
+imgUrl3="images/home/flash/blog_flash03.jpg";
+imgtext3="test";
+imgLink3="test";
+imgUrl4="images/home/flash/blog_flash04.jpg";
+imgtext4="test";
+imgLink4="test";
+imgUrl5="images/home/flash/blog_flash05.jpg";
+imgtext5="test";
+imgLink5="test";
+var focus_width=240;
+var focus_height=190;
+var text_height=18;
+swf_height = focus_height+text_height;
+var pics=imgUrl1+"|"+imgUrl2+"|"+imgUrl3+"|"+imgUrl4+"|"+imgUrl5;
+var links=imgLink1+"|"+imgLink2+"|"+imgLink3+"|"+imgLink4+"|"+imgLink5;
+var texts=imgtext1+"|"+imgtext2+"|"+imgtext3+"|"+imgtext4+"|"+imgtext5;
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="/cwbbs/blog/images/home/focus.swf"><param name="quality" value="high"><param name="bgcolor" value="#F0F0F0">');document.write('<param name="menu" value="false"><param name=wmode value="opaque">');document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');document.write('</object>');</script>
+				</div>
+				<div class="middleMain_insideBox_content_styleOne"></div>
+			</div>
+			<div class="middleMain_outsideBox_styleTwo">
+				<div class="middleMain_outsideBox_top_styleOne" style="background-image:url(template/images/top_boke.png)"><div class="more"><a href="#">更多</a></div></div>
+				<div class="middleMain_insideBox_styleLeft">
+					<div class="middleMain_insideBox_top_styleOne"><img src="template/images/top_newBlog.png" /></div>
+					<div class="middleMain_insideBox_imgContainer_styleTwo"><img src="template/images/top_newBlog_img.png" /></div>
+					<div class="middleMain_insideBox_content_styleTwo"><ul></ul></div>
+				</div>
+				<div class="middleMain_insideBox_styleLine"></div>
+				<div class="middleMain_insideBox_styleRight">
+					<div class="middleMain_insideBox_top_styleOne"><img src="template/images/top_newReg.png" /></div>
+					<div class="middleMain_insideBox_imgContainer_styleTwo"><img src="template/images/top_newReg_img.png" /></div>
+					<div class="middleMain_insideBox_content_styleTwo"><ul></ul></div>
+				</div>
+			</div>
+			<div class="middleMain_outsideBox_styleTwo">
+				<div class="middleMain_outsideBox_top_styleOne"><img src="template/images/top_bowen.png" /></div>
+				<div class="middleMain_insideBox_styleLeft">
+					<div class="middleMain_insideBox_top_styleOne"><img src="template/images/top_newArticle.png" /></div>
+					<div class="middleMain_insideBox_content_styleThree"><ul></ul></div>
+				</div>
+				<div class="middleMain_insideBox_styleLine"></div>
+				<div class="middleMain_insideBox_styleRight">
+					<div class="middleMain_insideBox_top_styleOne"><img src="template/images/top_replyRank.png" /></div>
+					<div class="middleMain_insideBox_content_styleThree"><ul></ul></div>
+				</div>
+			</div>
+			<div class="middleMain_ad"><span class="middleAd"><p><img alt="" border="0" src="/cwbbs/blog/template/images/middle_main_ad.png" /></p></span></div>
+			<div class="middleMain_outsideBox_styleTwo">
+				<div class="middleMain_outsideBox_top_styleOne" style="background-image:url(template/images/top_rizhi.png)"><div class="more"><a href="listblog.jsp">更多</a></div></div>
+				<div class="middleMain_insideBox_top_styleTwo"><img src="template/images/middleMain_insideBox_top_styleTwo_bg_01.png" /></div>
+				<div class="middleMain_insideBox_styleLeftTwo"></div>
+				<div class="middleMain_insideBox_styleLineTwo"></div>
+				<div class="middleMain_insideBox_styleRightTwo"></div>
+			</div>
+			<div class="middleMain_outsideBox_styleTwo">
+				<div class="middleMain_outsideBox_top_styleOne" style="background-image:url(template/images/top_xiangce.png)"><div class="more"><a href="listblogphoto.jsp">更多</a></div></div>
+                <div class="middleMain_insideBox_content_styleFour"></div>	
+			</div>		
+			<div class="middleMain_outsideBox_styleTwo">
+				<div class="middleMain_outsideBox_top_styleOne"><img src="template/images/top_youqinglianjie.png" /></div>
+				<div class="middleMain_insideBox_top_styleTwo"><img src="template/images/middleMain_insideBox_top_styleTwo_bg_02.png" /></div>
+                <div class="middleMain_insideBox_content_styleFive">
+					<div class="middleMain_insideBox_imgContainer_styleThree"><img src="template/images/image_02.png"/ ></div>
+					<div class="middleMain_insideBox_content_styleSix">
+<!-- begin.list.blogDir-->
+<li><b><a href="listblog.jsp?kind=wx">文学博客</a></b>&nbsp;
+<!-- BEGIN:list.blogDir-->
+<a href="listmsg.jsp?dirCode=sanwen">散文</a>&nbsp;
+<a href="listmsg.jsp?dirCode=shige">诗歌</a>&nbsp;
+<a href="listmsg.jsp?dirCode=xiaoshuo">小说</a>&nbsp;
+<!-- END:list.blogDir-->
+</li>
+<li><b><a href="listblog.jsp?kind=keji">科技博客</a></b>&nbsp;
+<!-- BEGIN:list.blogDir-->
+<a href="listmsg.jsp?dirCode=dianzi">电子</a>&nbsp;
+<a href="listmsg.jsp?dirCode=shuma">数码</a>&nbsp;
+<a href="listmsg.jsp?dirCode=program">程序</a>&nbsp;
+<!-- END:list.blogDir-->
+</li>
+<li><b><a href="listblog.jsp?kind=yishu">艺术博客</a></b>&nbsp;
+<!-- BEGIN:list.blogDir-->
+<a href="listmsg.jsp?dirCode=dance">舞蹈</a>&nbsp;
+<a href="listmsg.jsp?dirCode=gc">歌唱</a>&nbsp;
+<a href="listmsg.jsp?dirCode=shougong">手工</a>&nbsp;
+<a href="listmsg.jsp?dirCode=sheyin">摄影</a>&nbsp;
+<a href="listmsg.jsp?dirCode=paint">绘画</a>&nbsp;
+<!-- END:list.blogDir-->
+</li>
+<li><b><a href="listblog.jsp?kind=trap">旅游博客</a></b>&nbsp;
+<!-- BEGIN:list.blogDir-->
+<a href="listmsg.jsp?dirCode=msdc">名山大川</a>&nbsp;
+<a href="listmsg.jsp?dirCode=xtrq">乡土人情</a>&nbsp;
+<a href="listmsg.jsp?dirCode=tyfg">田园风光</a>&nbsp;
+<!-- END:list.blogDir-->
+</li>
+<li><b><a href="listblog.jsp?kind=teach">教育博客</a></b>&nbsp;
+<!-- BEGIN:list.blogDir-->
+<a href="listmsg.jsp?dirCode=xiaoxue">小学</a>&nbsp;
+<a href="listmsg.jsp?dirCode=cuzhong">初中</a>&nbsp;
+<a href="listmsg.jsp?dirCode=gaozhong">高中</a>&nbsp;
+<a href="listmsg.jsp?dirCode=daxue">大学</a>&nbsp;
+<!-- END:list.blogDir-->
+</li>
+<li><b><a href="listblog.jsp?kind=movie">电影博客</a></b>&nbsp;
+<!-- BEGIN:list.blogDir-->
+<a href="listmsg.jsp?dirCode=yanqin">言情</a>&nbsp;
+<a href="listmsg.jsp?dirCode=war">战争</a>&nbsp;
+<a href="listmsg.jsp?dirCode=donghua">动画</a>&nbsp;
+<a href="listmsg.jsp?dirCode=wuda">武打</a>&nbsp;
+<a href="listmsg.jsp?dirCode=qiangzhan">枪战</a>&nbsp;
+<!-- END:list.blogDir-->
+</li>
+<li><b><a href="listblog.jsp?kind=sport">体育博客</a></b>&nbsp;
+<!-- BEGIN:list.blogDir-->
+<a href="listmsg.jsp?dirCode=football">足球</a>&nbsp;
+<a href="listmsg.jsp?dirCode=lanqiu">篮球</a>&nbsp;
+<a href="listmsg.jsp?dirCode=paiqiu">排球</a>&nbsp;
+<a href="listmsg.jsp?dirCode=pinpangqiu">乒乓球</a>&nbsp;
+<a href="listmsg.jsp?dirCode=youyong">游泳</a>&nbsp;
+<a href="listmsg.jsp?dirCode=sheji">射击</a>&nbsp;
+<a href="listmsg.jsp?dirCode=sport_other">其它</a>&nbsp;
+<!-- END:list.blogDir-->
+</li>
+<!-- end.list.blogDir-->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="middleSideBar">
+			<div class="middleSideBar_outsideBox_styleOne"><iframe width="260" height="232" hspace=0 vspace=0 frameborder=0 marginwidth="0" marginheight="0" scrolling="no" src="iframe_login.jsp"></iframe></div>
+			<div class="middleSideBar_outsideBox_styleTwo"></div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(template/images/top_boyou.png)"></div>
+				<div class="boyou_content">
+				<form action="../listmember.jsp" method="post">
+					<ul>
+						<li>行业：
+						  <select name=career size=1>
+                            <option value="" selected>请选...</option>
+                            <option value="政府机关/干部">政府机关/干部</option>
+                            <option value="学生">学生</option>
+                            <option value="邮电通信">邮电通信</option>
+                            <option value="计算机">计算机</option>
+                            <option value="互联网">互联网</option>
+                            <option value="商业/贸易">商业/贸易</option>
+                            <option value="银行/金融/证券/保险/投资">银行/金融/证券/保险</option>
+                            <option value="税务">税务</option>
+                            <option value="咨询">咨询</option>
+                            <option value="社会服务">社会服务</option>
+                            <option value="旅游/饭店">旅游/饭店</option>
+                            <option value="健康/医疗服务">健康/医疗服务</option>
+                            <option value="房地产">房地产</option>
+                            <option value="交通运输">交通运输</option>
+                            <option value="法律/司法">法律/司法</option>
+                            <option value="文化/娱乐/体育">文化/娱乐/体育</option>
+                            <option value="媒介/广告">媒介/广告</option>
+                            <option value="科研/教育">科研/教育</option>
+                            <option value="农业">农业</option>
+                            <option value="矿业/制造业">矿业/制造业</option>
+                            <option value="自由职业">自由职业</option>
+                            <option value="其它">其它</option>
+                          </select>
+						  <input name="op" value="search" type="hidden">
+						</li>
+						<li>年龄范围：<select name="ageBegin">
+						<option value="-1">无</option>
+						<option value="15">15</option>
+						<option value="20">20</option>
+						<option value="25" selected>25</option>
+						<option value="30">30</option>
+						<option value="35">35</option>
+						<option value="40">40</option>
+						<option value="45">45</option>
+						<option value="50">50</option>
+						<option value="55">55</option>
+						<option value="60">60</option>
+						<option value="65">65</option>
+						<option value="70">70</option>
+						</select>
+						  至
+						<select name="ageEnd">
+						<option value="-1">无</option>
+						<option value="15">15</option>
+						<option value="20">20</option>
+						<option value="25">25</option>
+						<option value="30" selected>30</option>
+						<option value="35">35</option>
+						<option value="40">40</option>
+						<option value="45">45</option>
+						<option value="50">50</option>
+						<option value="55">55</option>
+						<option value="60">60</option>
+						<option value="65">65</option>
+						<option value="70">70</option>
+                        </select>
+						</li>
+						<li>性别：<input type="radio" name="gender" value="M">男<input type="radio" name="gender" value="F" checked>女<input type="radio" name="gender" value="">不限</li>
+						<li><input type="image" style="margin-left:50px" src="template/images/search_button.png" /></li>
+					</ul>
+				</form>
+				</div>
+			</div>			
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(template/images/top_boxing.png)"><div class="more_side"><a href="#">更多</a></div></div>
+				<div class="middleSideBar_outsideBox_content_styleOne"></div>
+			</div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(template/images/top_quanzi.png)"><div class="more_side"><a href="#">更多</a></div></div>
+				<div class="middleSideBar_outsideBox_content_styleOne"><ul></ul></div>
+			</div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(template/images/top_bokemoban.png)"><div class="more_side"><a href="#">更多</a></div></div>
+			    <div class="middleSideBar_outsideBox_content_styleOne"><ul></ul></div>
+			</div>
+	</div>
+	</div>
+	<div class="bottom"></div>
+</div>
+</body>
+</html>
+

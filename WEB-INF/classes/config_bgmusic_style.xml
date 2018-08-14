@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <style>
+        <item code="default">
+            <name>默认</name>
+            <width>296px</width>
+            <height>21px</height>
+        </item>
+        <item code="gray">
+            <name>银灰</name>
+            <width>149px</width>
+            <height>60px</height>
+        </item>
+    </style>
+</config>
+

@@ -1,0 +1,142 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>博客文章列表 - {$Global.AppName}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="template/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="content">
+    <div class="top">
+      <div class="Top_nav">{$blog.nav}</div>
+		<div class="top_right"><img src="template/images/image_03.png" />&nbsp;&nbsp;&nbsp;&nbsp;<a>设为首页</a>&nbsp;&nbsp;&nbsp;&nbsp;<a>加入收藏</a></div>
+		<div class="top_search">
+		<form name="formSearch" method="post" action="listmsg.jsp" style="margin:0px; padding:0px;" onSubmit="return formSearch_onSubmit()">
+			<div><img src="template/images/magnifier.gif" /></div>
+			<div style="margin-top:8px;">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		        <select id="searchType" name="searchType">
+                <option value="msgTitle" selected="selected">标题</option>
+                <option value="msgContent">内容</option>
+				<option value="userNick">搜索博主</option>							
+                </select>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<input name="keyword" />
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</div>
+			<div style="margin-top:8px;"><input type="image" src="template/images/search_all_site.gif" /></div>
+		</form>
+	  </div>
+	</div>
+	<div class="middle">
+        <div class="middleAd"><img src="template/images/middleAd.png" /></div>
+		<div class="middleMain_list">
+<ul>
+<!--begin:list.blog kind=request.kind,pageSize=20-->
+<div class="list_top">找到符合条件的记录 {@paginator.total} 条　每页显示 {@paginator.pageSize} 条　页次 {@paginator.currentPage}/{@paginator.totalPages}</div>
+<div class="list_middle">
+	  <li style="height:24px">
+	  <span style="float:right; padding-right:5px;">[{@addDate(format=yyyy-MM-dd HH:mm:ss)}]</span><a href="myblog.jsp?blogId={@id}">{@title(len=30,htmlencode=y)}</a>
+	  [{@type})]
+	  <table border="0" cellpadding="0" cellspacing="0" style="width:100%; height:1px; background-image:url(images/dot.gif)">
+	    <tr><td></td></tr></table>
+	  </li>
+</div>
+<div class="list_bottom">{@paginator.currentPageBlock}</div>
+<!--end:list.blog-->
+</ul>
+		</div>
+		<div class="middleSideBar">
+			<div class="middleSideBar_outsideBox_styleOne">
+			  <iframe width="260" height="232" hspace=0 vspace=0 frameborder=0 marginwidth="0" marginheight="0" scrolling="no" src="iframe_login.jsp"></iframe>
+			</div>
+			<div class="middleSideBar_outsideBox_styleTwo">{$blog.notice}</div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(template/images/top_boyou.png)"></div>
+				<div class="boyou_content">
+				<form action="../listmember.jsp" method="post">
+					<ul>
+						<li>行业：
+						  <select name=career size=1>
+                            <option value="" selected>请选...</option>
+                            <option value="政府机关/干部">政府机关/干部</option>
+                            <option value="学生">学生</option>
+                            <option value="邮电通信">邮电通信</option>
+                            <option value="计算机">计算机</option>
+                            <option value="互联网">互联网</option>
+                            <option value="商业/贸易">商业/贸易</option>
+                            <option value="银行/金融/证券/保险/投资">银行/金融/证券/保险</option>
+                            <option value="税务">税务</option>
+                            <option value="咨询">咨询</option>
+                            <option value="社会服务">社会服务</option>
+                            <option value="旅游/饭店">旅游/饭店</option>
+                            <option value="健康/医疗服务">健康/医疗服务</option>
+                            <option value="房地产">房地产</option>
+                            <option value="交通运输">交通运输</option>
+                            <option value="法律/司法">法律/司法</option>
+                            <option value="文化/娱乐/体育">文化/娱乐/体育</option>
+                            <option value="媒介/广告">媒介/广告</option>
+                            <option value="科研/教育">科研/教育</option>
+                            <option value="农业">农业</option>
+                            <option value="矿业/制造业">矿业/制造业</option>
+                            <option value="自由职业">自由职业</option>
+                            <option value="其它">其它</option>
+                          </select>
+						  <input name="op" value="search" type="hidden">
+						</li>
+						<li>年龄范围：<select name="ageBegin">
+						<option value="-1">无</option>
+						<option value="15">15</option>
+						<option value="20">20</option>
+						<option value="25" selected>25</option>
+						<option value="30">30</option>
+						<option value="35">35</option>
+						<option value="40">40</option>
+						<option value="45">45</option>
+						<option value="50">50</option>
+						<option value="55">55</option>
+						<option value="60">60</option>
+						<option value="65">65</option>
+						<option value="70">70</option>
+						</select>
+						  至
+						<select name="ageEnd">
+						<option value="-1">无</option>
+						<option value="15">15</option>
+						<option value="20">20</option>
+						<option value="25">25</option>
+						<option value="30" selected>30</option>
+						<option value="35">35</option>
+						<option value="40">40</option>
+						<option value="45">45</option>
+						<option value="50">50</option>
+						<option value="55">55</option>
+						<option value="60">60</option>
+						<option value="65">65</option>
+						<option value="70">70</option>
+                        </select>
+						</li>
+						<li>性别：<input type="radio" name="gender" value="M">男<input type="radio" name="gender" value="F" checked>女<input type="radio" name="gender" value="">不限						</li>
+						<li><input type="image" style="margin-left:50px" src="template/images/search_button.png" /></li>
+					</ul>
+				</form>
+			  </div>
+			</div>			
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(template/images/top_boxing.png)"><div class="more_side"><a href="#">更多</a></div></div>
+				<div class="middleSideBar_outsideBox_content_styleOne">{$blog.star}</div>
+			</div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(template/images/top_quanzi.png)"><div class="more_side"><a href="#">更多</a></div></div>
+				<div class="middleSideBar_outsideBox_content_styleOne">{$blog.group}</div>
+			</div>
+			<div class="middleSideBar_outsideBox_styleThree">
+				<div class="middleSideBar_outsideBox_top_styleOne" style="background-image:url(template/images/top_bokemoban.png)"><div class="more_side"><a href="#">更多</a></div></div>
+				<div class="middleSideBar_outsideBox_content_styleOne">{$blog.postRank}</div>
+			</div>
+		</div>
+	</div>
+	<div class="bottom"></div>
+</div>
+</body>
+</html>

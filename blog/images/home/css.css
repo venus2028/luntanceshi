@@ -1,0 +1,260 @@
+BODY {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+TD {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; color:#666666; line-height:normal; 
+}
+.bbsnew {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; color:#333333; line-height:300%; 
+}
+.bbslink {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; color:#333333; line-height:190%; 
+}
+.new1 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; color:#333333; line-height:215%; 
+}
+.bbs111 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; color:#0393AE; line-height:225%; 
+}
+.bbs222 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; color:#222222; line-height:225%; 
+}
+.bbs1 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; color:#0393AE; line-height:170%; 
+}
+.bbs2 {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial; color:#222222; line-height:170%; 
+}
+
+.notice {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial;
+	color:#000000;
+}
+.noticetext {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial;
+	color:#035C7D;
+}
+.loginword {
+	FONT-SIZE: 12px;
+	FONT-FAMILY: Arial;
+	color:#0393AE;
+}
+.biao1 {
+    vertical-align :middle
+	font-size: 12pt;
+    border-collapse:collapse;
+	border:1px solid #CFD0CF;
+	font-family: "宋体";
+	color: #4B4B4B;
+}
+.title1 {
+vertical-align :middle
+	border-collapse: collapse;
+	border:0px;
+	font-family: "宋体";
+	color: #4B4B4B;
+	font-weight: bold;
+	font-size: 16px;
+}
+.title2 {
+vertical-align :middle
+	border-collapse: collapse;
+	border:0px;
+	color: #282828;
+	font-family: "宋体";
+	font-weight: bold;
+	font-size: 18px;
+}
+.biao1 td {
+border:0px solid #; color:#4B4B4B
+}
+.top {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 15px;
+	color: #C2D6E1;
+	text-decoration: none;
+	letter-spacing: 1px;
+
+}
+.userpaihang {
+	font-family: "宋体";
+	font-size: 12px;
+	line-height: 15px;
+	color: #08A7D5;
+	text-decoration: none;
+	letter-spacing: 1px;
+	font-weight: bold;
+
+}
+.bbspaihang {
+vertical-align :middle
+	border-collapse: collapse;
+	border:0px;
+	font-family: "宋体";
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+TH {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}	
+A.top:link {
+	FONT-SIZE: 9pt; COLOR: #C2D6E1; LINE-HEIGHT: normal; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.top:visited {
+	FONT-SIZE: 9pt; COLOR: #C2D6E1; LINE-HEIGHT: normal; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.top:hover {
+	COLOR: #000000; TEXT-DECORATION: none; background-color: #FF9900; line-height:normal
+}
+A.top:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+
+
+A.loginword:link {
+	FONT-SIZE: 9pt; COLOR: #0393AE; LINE-HEIGHT: normal; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.loginword:visited {
+	FONT-SIZE: 9pt; COLOR: #0393AE; LINE-HEIGHT: normal; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.loginword:hover {
+	COLOR: #33CCFF; TEXT-DECORATION: none; line-height:normal
+}
+A.loginword:active {
+	COLOR: #ffffff; TEXT-DECORATION: none
+}
+
+
+
+A:link {
+	FONT-SIZE: 9pt; COLOR: #333333; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:visited {
+	FONT-SIZE: 9pt; COLOR: #333333; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #333333; TEXT-DECORATION:underline;
+}
+A:active {
+	COLOR: #333333; TEXT-DECORATION:underline
+}
+
+A.title1link:link {
+	FONT-SIZE: 9pt; font-family: "宋体";color: #4B4B4B;	font-weight: bold;	font-size: 16px; LINE-HEIGHT: normal; TEXT-DECORATION: none
+}
+A.title1link:visited {
+	FONT-SIZE: 9pt; font-family: "宋体";color: #4B4B4B;	font-weight: bold;	font-size: 16px; LINE-HEIGHT: normal; TEXT-DECORATION: none}
+A.title1link:hover {
+	COLOR: #000000; TEXT-DECORATION:none; line-height:normal
+}
+A.title1link:active {
+	COLOR: #4B4B4B; TEXT-DECORATION:none
+}
+
+A.bbs2link:link {
+	FONT-SIZE: 9pt; COLOR: #333333; line-height:170%; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.bbs2link:visited {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 170%; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.bbs2link:hover {
+	COLOR: #333333; TEXT-DECORATION:underline; LINE-HEIGHT: 170%; 
+}
+A.bbs2link:active {
+	COLOR: #333333; TEXT-DECORATION:underline; LINE-HEIGHT: 170%; 
+}
+
+A.bbs222link:link {
+	FONT-SIZE: 9pt; COLOR: #333333; line-height:225%; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.bbs222link:visited {
+	FONT-SIZE: 9pt; COLOR: #333333; LINE-HEIGHT: 225%; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.bbs222link:hover {
+	COLOR: #333333; TEXT-DECORATION:underline; LINE-HEIGHT: 225%; 
+}
+A.bbs222link:active {
+	COLOR: #333333; TEXT-DECORATION:underline; LINE-HEIGHT: 225%; 
+}
+
+A.person1:link {
+	FONT-SIZE: 9pt; COLOR: #0D8CDB; line-height:100%; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.person1:visited {
+	FONT-SIZE: 9pt; COLOR: #0D8CDB; LINE-HEIGHT: 100%; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.person1:hover {
+	COLOR: #0D8CDB; TEXT-DECORATION:underline; LINE-HEIGHT: 100%; 
+}
+A.person1:active {
+	COLOR: #333333; TEXT-DECORATION:underline; LINE-HEIGHT: 100%; 
+}
+
+A.person2:link {
+	FONT-SIZE: 9pt; COLOR: #FC884F; line-height:100%; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.person2:visited {
+	FONT-SIZE: 9pt; COLOR: #FC884F; LINE-HEIGHT: 100%; FONT-STYLE: normal; TEXT-DECORATION: none
+}
+A.person2:hover {
+	COLOR: #FC884F; TEXT-DECORATION:underline; LINE-HEIGHT: 100%; 
+}
+A.person2:active {
+	COLOR: #333333; TEXT-DECORATION:underline; LINE-HEIGHT: 100%; 
+}
+
+BODY {
+background-image: URL(bg.gif);
+background-position: center 50%; MARGIN: 0px;
+background-repeat: repeat-y;
+}
+
+li {
+list-style: inside, square;
+list-style-image: url(dot.gif);
+}
+ul { margin-left:20px; line-height:150%}
+
+.divFocus li {
+list-style: inside, circle;
+}
+
+.nav {
+	padding-top:4px;
+	border: 1px #D1E1F1 solid;
+	width:948px;
+	height:24px;
+}
+.nav ul {
+	margin: 0px;
+	margin-left:10px;
+	padding: 0px;
+	text-align: left;
+}
+.nav li {
+	list-style-position: inside;
+	list-style-type: none;
+	float: left;
+	height: 15px;
+	background-position: center;
+	margin: 0px 5px 0px 5px;
+	padding: 3px 10px 0px 10px;
+	font-size: 14px;
+	color: #835821;
+}
+.nav .seperator {
+	list-style-position: inside;
+	list-style-type: none;
+	float: left;
+	height: 15px;
+	margin: 3px 5px 0px 5px;
+	padding: 0px;
+	background-color:#BFBFBF;
+	width:1px;
+	font-size:1px;
+}

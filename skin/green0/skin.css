@@ -1,0 +1,276 @@
+@charset "utf-8";
+body {
+	font-family: "微软雅黑", "Microsoft YaHei";
+	font-size: 12px;
+	line-height: 20px;
+	color: #5B783D;
+	background-image: url(images/home_06.jpg);
+	background-repeat: repeat-x;
+	background-position: left 65px;
+	margin: 0px;
+	cursor: default;
+	background-color: #fbffed;
+	text-align: center;
+}
+#name {
+	font-size: 24px;
+	line-height: 24px;
+	color: #006633;
+	text-decoration: none;
+}
+#menu a {
+	font-size: 14px;
+	color: #FFFFFF;
+	background-image: url(images/home_03.jpg);
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 24px;
+	width: 90px;
+	line-height: 24px;
+	display: block;
+	text-decoration: none;
+	float: left;
+	background-position: left -1px;
+}
+#menu a:hover {
+	color: #FFFF00;
+	text-decoration: none;
+}
+.marginT {
+	margin-top: 10px;
+}
+.border {
+	border: 1px solid #D5E293;
+}
+a {
+	color: #698B47;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+}
+.font {
+	font-size: 16px;
+	font-weight: bold;
+	color: #006600;
+}
+
+.guestbook_box {
+	text-align:left;
+	padding:30px;
+}
+.guestbook_box div {
+	padding-bottom:20px;
+	line-height:1.5;
+}
+
+.guestbook_form_table {
+border:1px #eeeeee solid;
+width:60%;
+}
+
+.guestbook_title {
+font-size:14px;
+font-weight:bold;
+background-color: #76C46A;
+color:#ffffff;
+}
+
+
+ul#navmenu {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ /*width: 800px; For KHTML*/
+ list-style: none;
+ height: 24px;
+}
+
+ul#navmenu li {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ float: left; /*For Gecko*/
+ display: inline;
+ list-style: none;
+ position: relative;
+ height: 20px;
+ padding-right:30px;
+}
+
+ul#navmenu ul {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ width: 120px;
+ list-style: none;
+ display: none;
+ position: absolute;
+ top: 24px;
+ left: 0;
+}
+
+ul#navmenu ul li {
+ float: none; /*For Gecko*/
+ display: block !important;
+ display: inline; /*For IE*/
+}
+
+/* Root Menu */
+ul#navmenu a {
+/*
+ border: 1px solid #FFF;
+ border-right-color: #CCC;
+ border-bottom-color: #CCC;
+ background: #EEE;
+*/ 
+ padding: 0 6px;
+ float: none !important; /*For Opera*/
+ float: left; /*For IE*/
+ display: block;
+ color: #666;
+ text-decoration: none;
+ height: auto !important;
+ height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+ /*
+ background: #CCC;
+ */
+ color: #ff5555;
+ height:22px; 
+}
+
+/* 2nd Menu */
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+ float: none;
+ background: #EEE;
+ color: #666;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+ background: #CCC;
+ color: #FFF;
+}
+
+/* 3rd Menu */
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+ background: #EEE;
+ color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+ background: #CCC;
+ color: #FFF;
+}
+
+/* 4th Menu */
+ul#navmenu li:hover li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li.iehover li a {
+ background: #EEE;
+ color: #666;
+}
+
+ul#navmenu li ul li a.fly
+{background:#eee url(images/arrow.gif) 110px 6px no-repeat;}
+ul#navmenu li ul li a.fly:hover
+{background:#ccc url(images/arrow.gif) 110px 6px no-repeat; color: #FFF}
+
+/* 4th Menu Hover */
+ul#navmenu li:hover li:hover li:hover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover li a:hover {
+ background: #CCC;
+ color: #FFF;
+}
+
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 120px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+ display: none;
+}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+display: block;
+}
+
+ul#listImg {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ list-style: none;
+ background-color:red;
+}
+
+ul#listImg li {
+display:block;
+float:left;
+width:107px;
+border:0px;
+margin-top:15px;
+margin-left:10px;
+}
+
+.catalog_box {
+width:107px;
+height:92px;
+float:left;
+margin-right:5px;
+margin-top:10px;
+margin-left:10px;
+font-size:12px;
+}
+
+.catalog_title{
+padding-left:10px;
+}
+
+.catalog_count{
+padding-left:10px;
+}
+
+.catalog_photo_box {
+width:107px;
+height:92px;
+background-image:url(images/catalog.gif);
+}
+
+.catalog_photo_box img {
+margin-left:17px;
+margin-top:8px;
+border:0px;
+}
+
+.item {
+list-style-type:none;
+background:url(images/home_25.gif) no-repeat 0 center;
+padding-left:8px;
+}

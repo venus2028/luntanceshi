@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<all>
+    <theme code="default">
+        <name>默认主题</name>
+        <author />
+        <path />
+        <banner>forum/images/banner.jpg</banner>
+        <height>110</height>
+    </theme>
+    <theme code="sweet">
+        <name>佳人有约</name>
+        <author />
+        <path>/forum/plugin/sweet/theme</path>
+        <banner>images/banner.jpg</banner>
+        <height>108</height>
+    </theme>
+</all>
+

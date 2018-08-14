@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>{$Global.AppName} - 博客</title>
+        <link href="/cwbbs/blog/images/home/css.css" type="text/css" rel="stylesheet" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+<!--
+.leftTable {
+padding:1px;
+BORDER-RIGHT: #D1E6DF 1px solid;
+BORDER-TOP: #D1E6DF 1px solid;
+BORDER-LEFT: #D1E6DF 1px solid;
+BORDER-BOTTOM: #D1E6DF 1px solid;
+}
+--></style>
+    </head>
+    <body leftmargin="0" topmargin="0" marginheight="0" marginwidth="0">
+        <div align="center">
+        <table id="Table_01" height="137" cellspacing="0" cellpadding="0" width="964" border="0">
+            <tbody>
+                <tr>
+                    <td width="964" bgcolor="#196189" colspan="12" height="20">
+                    <div>
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td width="10"></td>
+                                <td class="top" width="700">欢迎访问{$Global.AppName}&middot;博客</td>
+                                <td class="top"><Script Language="JavaScript"> 
+　　var timedate= new Date("August 8,2008"); 
+　　var times="北京奥运会";
+　　var now = new Date(); 
+　　var date = timedate.getTime() - now.getTime(); 
+　　var time = Math.floor(date / (1000 * 60 * 60 * 24)); 
+　　if (time >= 0) ;
+document.write("离2008"+times+"开幕还有: <font style='font-size:12px;line-height:18px;color:#ffffff'><b>"+time +"</b></font> 天");
+</Script></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" height="85"><img height="85" alt="" width="218" border="0" src="/cwbbs/blog/images/home/top_02.gif" /></td>
+                    <td width="746" background="/cwbbs/blog/images/home/top_03.gif" colspan="8" height="85">
+                    <div>
+                    <table width="746">
+                        <tbody>
+                            <tr>
+                                <td align="center" width="680"><span style="padding-left: 5px">{$desktop.pos(2,21).content}</span></td>
+                                <td width="66">
+                                <div>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td height="19"><a class="top" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('{$request.@serverName}')" href="#">设为首页</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a class="top" href="javascript:window.external.addFavorite('{$request.@serverName}')">加入收藏</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                </div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td background="/cwbbs/blog/images/home/top_14.gif" colspan="12" height="31">{$nav.2}</td>
+                </tr>
+                <tr>
+                    <td width="964" height="1"></td>
+                    <td width="71" height="1"></td>
+                    <td width="73" height="1"></td>
+                    <td width="71" height="1"></td>
+                    <td width="746" height="1"></td>
+                    <td width="72" height="1"></td>
+                    <td width="71" height="1"></td>
+                    <td width="71" height="1"></td>
+                    <td width="71" height="1"></td>
+                    <td width="71" height="1"></td>
+                    <td width="74" height="1"></td>
+                    <td width="247" height="1"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div>
+          <table width="967" background="/cwbbs/blog/images/home/111_01.gif">
+            <tbody>
+              <tr>
+                <td width="261"><div>
+                    <table>
+                      <form action="listmsg.jsp" method="post" target="_blank" name="bbssearch">
+                        <tbody>
+                          <tr>
+                            <td width="200"><div align="center">
+                              <select id="searchType" name="searchType">
+                                  <option value="msgTitle" selected="selected">标题</option>
+                                  <option value="msgContent">内容</option>
+                              </select>
+                                <input class="biao1" id="author" tabindex="1" size="16" name="keyword" type="text" />
+                            </div></td>
+                            <td><input tabindex="2" type="image" src="/cwbbs/blog/images/home/search.gif" name="B1" value="提交" /></td>
+                          </tr>
+                        </tbody>
+                      </form>
+                    </table>
+                </div></td>
+                <td width="705"><div>
+                    <table width="694">
+                      <tbody>
+                        <tr>
+                          <td class="notice" width="81">&nbsp;&nbsp;<strong>博客公告：</strong></td>
+                          <td class="noticetext" width="601"><marquee scrollamount="5" scrolldelay="80" width="601" onMouseOut="this.start();" onMouseMove="this.stop();">
+                            {$desktop.pos(2,1).content}
+                          </marquee></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                </div></td>
+              </tr>
+            </tbody>
+          </table>
+          <table width="967" border="0" align="center" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="261" valign="top"><table border="0" cellpadding="0" cellspacing="0" class="leftTable">
+                <tr>
+                  <td width="255" height="21" align="center"><img src="/cwbbs/blog/images/home/tjbk.gif" width="255" height="21"></td>
+                </tr>
+                <tr>
+                  <td><div style="padding-left: 5px">{$desktop.pos(2,9).content}</div></td>
+                </tr>
+              </table>
+			  <table style="height:2px"><tr><td></td></tr></table>
+			  <table border="0" cellpadding="0" cellspacing="0" class="leftTable">
+                <tr>
+                  <td width="255" height="21" align="center"><img src="/cwbbs/blog/images/home/new_article.gif" width="255" height="21"></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+			  <table style="height:2px">
+			    <tr>
+			      <td></td>
+		        </tr>
+			    </table>
+			  <table border="0" cellpadding="0" cellspacing="0" class="leftTable">
+                <tr>
+                  <td width="255" height="21" align="center"><img src="/cwbbs/blog/images/home/rank_view.gif" width="255" height="21"></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table>
+			  <table style="height:2px">
+			    <tr>
+			      <td></td>
+		        </tr>
+			    </table>
+			  <table border="0" cellpadding="0" cellspacing="0" class="leftTable">
+                <tr>
+                  <td width="255" height="21" align="center"><img src="/cwbbs/blog/images/home/rank_comment.gif" width="255" height="21"></td>
+                </tr>
+                <tr>
+                  <td>&nbsp;</td>
+                </tr>
+              </table></td>
+              <td width="706">
+<ul>
+<!--begin:list.blog kind=request.kind,pageSize=20-->
+<div style="padding:5px;" align="right">找到符合条 件的记录 {@paginator.total} 条　每页显示 {@paginator.pageSize} 条　页次 {@paginator.currentPage}/{@paginator.totalPages}</div>
+	  <li style="height:24px">
+	  <span style="float:right; padding-right:5px;">[{@addDate(format=yyyy-MM-dd HH:mm:ss)}]</span><a href="myblog.jsp?blogId={@id}">{@title(len=30)}</a>
+	  [{@type})]
+	  <table border="0" cellpadding="0" cellspacing="0" style="width:100%; height:1px; background-image:url(images/dot.gif)">
+	    <tr><td></td></tr></table>
+	  </li>
+<div style="padding:5px;" align="right">{@paginator.currentPageBlock}</div>
+<!--end:list.blog-->
+</ul>			  
+			  </td>
+            </tr>
+          </table>
+        </div>
+        <table id="Table_07" cellspacing="0" cellpadding="0" width="966" border="0">
+            <tbody>
+                <tr>
+                    <td width="966" background="/cwbbs/blog/images/home/foot_01.gif" height="14"></td>
+                </tr>
+                <tr>
+                    <td width="966" bgcolor="#f1f5f6" height="53">
+                    <div align="center">Powered by <strong>CWBBS</strong> <strong style="color: #ff9900">{$Global.version}</strong>&nbsp; &copy; 2005-2007&nbsp;<a style="font-size: 11px; font-family: Tahoma, Arial" target="_blank" href="http://www.cloudwebsoft.com">Cloud Web Soft</a></div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+    </body>
+</html>

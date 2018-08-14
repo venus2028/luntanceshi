@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <Application>
+        <author>CWBBS</author>
+        <name>云网论坛</name>
+        <admin_pwd />
+        <internetFlag>no</internetFlag>
+        <!--secure，是否使用安全连接-->
+        <server>localhost</server>
+        <port>8080</port>
+        <virtualPath>cwbbs</virtualPath>
+        <bak_path>bak</bak_path>
+        <FileSize>2048000</FileSize>
+        <!--以K为单位，fileUpload组件接收的最大值-->
+        <WebEdit>
+            <!--WebEdit控件上传的最大尺寸,含HTML代码和附件-->
+            <MaxSize>2048000000</MaxSize>
+            <!--断点续传时同时上传的文件数目，以字节为单位-->
+            <maxUploadingFileCount>30</maxUploadingFileCount>
+        </WebEdit>
+        <smtpServer>smtp.sina.com</smtpServer>
+        <smtpPort>25</smtpPort>
+        <smtpUser>cloudwebsoft</smtpUser>
+        <smtpPwd>051184442756</smtpPwd>
+        <email>root@cloudwebsoft.com</email>
+        <realPath>D:/Workspaces/MyEclipse 7.0/cwbbs/WebRoot/</realPath>
+        <title>云网论坛</title>
+        <desc>云网论坛</desc>
+        <!--用于RSS-->
+        <copyright>镇江云网软件技术有限公司 2005.8</copyright>
+        <version>2.4RC</version>
+        <icp>苏ICP备000000</icp>
+        <contact>QQ：1119032388</contact>
+        <isRequestSupportCN>false</isRequestSupportCN>
+        <useCache>true</useCache>
+        <isSubDomainSupported>false</isSubDomainSupported>
+        <isTransactionSupported>true</isTransactionSupported>
+        <isGZIPEnabled>true</isGZIPEnabled>
+        <isCluster>false</isCluster>
+        <db>Oracle</db>
+    </Application>
+    <DataBase>
+        <db>
+            <name>forum</name>
+            <Default>true</Default>
+            <UsePool>false</UsePool>
+            <PoolName />
+            <DBDriver>org.logicalcobwebs.proxool.ProxoolDriver</DBDriver>
+            <ConnStr>proxool.cloudweb_db</ConnStr>
+        </db>
+        <db>
+            <name>zjrj</name>
+            <Default>false</Default>
+            <UsePool>false</UsePool>
+            <PoolName />
+            <DBDriver>org.logicalcobwebs.proxool.ProxoolDriver</DBDriver>
+            <ConnStr>proxool.zjrj</ConnStr>
+        </db>
+    </DataBase>
+    <scheduler>
+        <className>cn.js.fan.module.cms.CMSSchedulerUnit</className>
+        <className>com.redmoon.forum.ForumSchedulerUnit</className>
+        <className>com.redmoon.forum.plugin.auction.AuctionSchedulerUnit</className>
+    </scheduler>
+    <i18n>
+        <lang>zh</lang>
+        <country>cn</country>
+        <timeZone>GMT+08:00</timeZone>
+        <isSpecified>false</isSpecified>
+    </i18n>
+</config>
+

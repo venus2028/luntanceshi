@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE web-app
+    PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+    "http://java.sun.com/dtd/web-app_2_3.dtd">
+
+<web-app>
+
+<display-name>proxool</display-name>
+
+<filter>
+<filter-name>linkFilter</filter-name>
+<filter-class>com.redmoon.forum.LinkFilter</filter-class>
+</filter>
+
+<filter>
+<filter-name>blogLinkFilter</filter-name>
+<filter-class>com.redmoon.blog.BlogLinkFilter</filter-class>
+</filter>
+
+<filter>
+<filter-name>downloadfilter</filter-name>
+<filter-class>com.redmoon.forum.DownloadFilter</filter-class>
+</filter>
+
+<filter>
+<filter-name>FloodFilter</filter-name>
+<filter-class>com.redmoon.forum.security.flood.FloodFilter</filter-class>
+</filter>
+
+<filter-mapping>
+<filter-name>linkFilter</filter-name>
+<url-pattern>/forum/*</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+<filter-name>blogLinkFilter</filter-name>
+<url-pattern>/blog/*</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+<filter-name>downloadfilter</filter-name>
+<url-pattern>/bak/*</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+<filter-name>downloadfilter</filter-name>
+<url-pattern>/forum/upfile/*</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+<filter-name>downloadfilter</filter-name>
+<url-pattern>/downloads/*</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+<filter-name>downloadfilter</filter-name>
+<url-pattern>/log/*</url-pattern>
+</filter-mapping>
+
+<filter-mapping>
+<filter-name>FloodFilter</filter-name>
+<url-pattern>/forum/*</url-pattern>
+<dispatcher>request</dispatcher>  
+<dispatcher>forward</dispatcher>  
+</filter-mapping>
+
+<listener> 
+	<listener-class>
+		cn.js.fan.module.pvg.SessionListener
+	</listener-class>
+</listener>
+
+<servlet>
+   <servlet-name>log4j-init</servlet-name>
+   <servlet-class>cn.js.fan.util.Log4jInit</servlet-class>
+   <init-param>
+      <param-name>log4j</param-name>
+      <param-value>WEB-INF/log4j.properties</param-value>
+   </init-param>
+   <load-on-startup>1</load-on-startup>
+</servlet>
+
+    <servlet>
+      <servlet-name>
+          chatservice
+      </servlet-name>
+      <servlet-class>
+          com.redmoon.chat.ChatService
+      </servlet-class>
+    </servlet>
+
+	<servlet>
+	  <servlet-name>ServletConfigurator</servlet-name>
+	  <servlet-class>org.logicalcobwebs.proxool.configuration.ServletConfigurator</servlet-class>
+	  <init-param>
+		<param-name>xmlFile</param-name>
+		<param-value>WEB-INF/proxool.xml</param-value>
+	  </init-param>
+    <load-on-startup>2</load-on-startup>
+	</servlet>
+	
+	<servlet>
+	  <servlet-name>CWBBSAppInit</servlet-name>
+	  <servlet-class>cn.js.fan.module.cms.kernel.AppInit</servlet-class>
+	  <load-on-startup>3</load-on-startup>
+	</servlet>
+
+	<servlet>
+	  <servlet-name>proxool_Admin</servlet-name>
+	  <servlet-class>org.logicalcobwebs.proxool.admin.servlet.AdminServlet</servlet-class>
+	</servlet>
+	
+	<servlet> 
+	<servlet-name>DisplayChart</servlet-name> 
+	<servlet-class>org.jfree.chart.servlet.DisplayChart</servlet-class> 
+	</servlet> 
+	
+	<servlet>
+        <servlet-name>AxisServlet</servlet-name>
+        <display-name>Apache-Axis Servlet</display-name>
+        <servlet-class>org.apache.axis2.transport.http.AxisServlet</servlet-class>
+        <!--<init-param>-->
+        <!--<param-name>axis2.xml.path</param-name>-->
+        <!--<param-value>/WEB-INF/conf/axis2.xml</param-value>-->
+        <!--<param-name>axis2.xml.url</param-name>-->
+        <!--<param-value>http://localhost/myrepo/axis2.xml</param-value>-->
+        <!--<param-name>axis2.repository.path</param-name>-->
+        <!--<param-value>/WEB-INF</param-value>-->
+        <!--<param-name>axis2.repository.url</param-name>-->
+        <!--<param-value>http://localhost/myrepo</param-value>-->
+        <!--</init-param>-->
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>AxisAdminServlet</servlet-name>
+        <display-name>Apache-Axis AxisAdmin Servlet (Web Admin)</display-name>
+        <servlet-class>
+            org.apache.axis2.webapp.AxisAdminServlet</servlet-class>
+    </servlet>
+	
+    <servlet>
+    	<servlet-name>ThirdToSso</servlet-name>  
+   		<servlet-class>com.redmoon.forum.sso.ThirdToSso</servlet-class>  
+	</servlet>	
+	
+	<servlet-mapping> 
+		<servlet-name>DisplayChart</servlet-name> 
+		<url-pattern>/servlet/DisplayChart</url-pattern> 
+	</servlet-mapping> 
+
+    <servlet-mapping>
+        <servlet-name>chatservice</servlet-name>
+        <url-pattern>/chat/chatservice</url-pattern>
+    </servlet-mapping>
+
+	<servlet-mapping>
+	  <servlet-name>proxool_Admin</servlet-name>
+	  <url-pattern>/proxoolAdmin</url-pattern>
+	</servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AxisServlet</servlet-name>
+        <url-pattern>/servlet/AxisServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AxisServlet</servlet-name>
+        <url-pattern>*.jws</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AxisServlet</servlet-name>
+        <url-pattern>/services/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>AxisAdminServlet</servlet-name>
+        <url-pattern>/axis2-admin/*</url-pattern>
+    </servlet-mapping>
+    
+    <servlet-mapping>  
+    	<servlet-name>ThirdToSso</servlet-name>  
+      <url-pattern>/ThirdToSso</url-pattern>  
+	</servlet-mapping>  
+
+</web-app>

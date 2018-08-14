@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+    <head>
+        <title>{$Global.AppName}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link href="/cwbbs/template/css.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="content">{$cms.include(page=template/header.htm)}
+        <div class="notice"><span class="notice_title">网站公告：</span> <marquee class="notice_content" scrollamount="2" scrolldelay="20">{$forum.notice}</marquee><span class="notice_search">
+        <form action="search_full_text_do.jsp" method="post">
+            <input class="notice_search_input" name="queryString" type="text" /> <input type="hidden" name="fieldName" value="content" /> <input type="image" height="19" width="74" src="/cwbbs/template/images/btn_search.gif" align="middle" />
+        </form>
+        </span></div>
+        <div class="middle">
+        <div class="main">
+        <div class="docBorder">
+<!--begin:list.dir dirCode=request.dirCode-->
+
+        <table width="100%">
+            <tbody>
+                <tr>
+                    <td style="font-size: 16px; border-bottom: #cccccc 1px dashed" colspan="2" height="22"><a href="{@linkUrl}"><strong>{@name}</strong></a></td>
+                </tr>
+                <tr>
+                    <td valign="top" width="19%">{@logo}</td>
+                    <td width="81%">
+                    <ul>
+<!--begin:list.doc dirCode=request.curDirCode,start=0,end=8-->
+
+                        <li><a href="{@linkUrl}">{@title(len=30)}</a>&nbsp;&nbsp;[{@modifiedDate(format=yyyy-MM-dd HH:mm:ss)}] 
+<!--end:list.doc-->
+</li>
+                    </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        
+<!--end:list.dir-->
+</div>
+        </div>
+        <div class="right">
+        <div class="right_box_top"><img height="5" alt="" width="9" src="/cwbbs/template/images/icon_arrow1.gif" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网站登录</div>
+        <div class="right_box_middle"><iframe style="margin-left: 10px" marginwidth="0" src="/cwbbs/iframe_login.jsp" frameborder="0" width="232" scrolling="no" height="140"></iframe></div>
+        <div class="right_box_bottom"></div>
+        <div class="right_box_top"><span>&gt;&gt; 更多</span>
+        <li>都市酒吧</li>
+        </div>
+        <div class="right_box_middle"></div>
+        <div class="right_box_bottom"></div>
+        <div class="right_box_top"><span>&gt;&gt; 更多</span>
+        <li>最新贴子</li>
+        </div>
+        <div class="right_box_middle">{$forum.listTopic(len=36)}</div>
+        <div class="right_box_bottom"></div>
+        <div class="ad_right_box"><img alt="" src="/cwbbs/template/images/ad_right.gif" /></div>
+        <div class="right_box_top"><span>&gt;&gt; <a href="{$forum.listTopic(boardcode=trade,more=y)}">更多</a></span>
+        <li>同城交易</li>
+        </div>
+        <div class="right_box_middle">{$forum.listTopic(boardcode=trade,target=_blank)}</div>
+        <div class="right_box_bottom"></div>
+        <div class="right_box_top"><span>&gt;&gt; <a href="{$forum.listUser(type=new,more=y)}">更多</a></span>
+        <li>最新用户</li>
+        </div>
+        <div class="right_box_middle">{$forum.listUser(type=new)}</div>
+        <div class="right_box_bottom"></div>
+        </div>
+        </div>
+        <div class="bottom"></div>
+        </div>
+        {$cms.include(page=template/footer.htm)}
+    </body>
+</html>

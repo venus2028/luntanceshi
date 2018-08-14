@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- the proxool configuration can be embedded within your own application's.
+Anything outside the "proxool" tag is ignored. -->
+<something-else-entirely>
+    <proxool>
+        <alias>cloudweb_db</alias>
+        <driver-url>jdbc:mysql://localhost:3306/cwbbs?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull</driver-url>
+        <driver-class>com.mysql.jdbc.Driver</driver-class>
+        <driver-properties>
+            <property name="user" value="root" />
+            <property name="password" value="123456" />
+        </driver-properties>
+        <maximum-connection-count>200</maximum-connection-count>
+        <house-keeping-test-sql>select 1</house-keeping-test-sql>
+    </proxool>
+    <proxool>
+        <alias>aaa</alias>
+        <driver-url>jdbc:mysql://localhost:3306/cwbbs?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull</driver-url>
+        <driver-class>com.mysql.jdbc.Driver</driver-class>
+        <driver-properties>
+            <property name="user" value="root" />
+            <property name="password" value="123456" />
+        </driver-properties>
+        <maximum-connection-count>200</maximum-connection-count>
+        <house-keeping-test-sql>select 1</house-keeping-test-sql>
+    </proxool>
+    <proxool>
+        <alias>zjrj</alias>
+        <driver-url>jdbc:oracle:thin:@//localhost:1521/orcl</driver-url>
+        <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+        <driver-properties>
+            <property name="user" value="root" />
+            <property name="password" value="123456" />
+        </driver-properties>
+        <maximum-connection-count>200</maximum-connection-count>
+        <house-keeping-test-sql>select 1</house-keeping-test-sql>
+    </proxool>
+</something-else-entirely>
+

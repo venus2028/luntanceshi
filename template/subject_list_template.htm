@@ -1,0 +1,183 @@
+<html>
+    <head>
+        <title>{$Global.AppName}</title>
+        <link href="/cwbbs/images/home/css.css" type="text/css" rel="stylesheet" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><style type="text/css">
+<!--
+BODY {background-image: URL(/cwbbs/images/home/bg.gif);
+background-position: center 50%; MARGIN: 0px; 
+background-repeat: repeat-y;
+}
+
+a.link_nav:link {
+color:#FFFFFF;
+}
+
+a.link_nav:visited {
+color:#FFFFFF;
+}
+
+li {
+list-style: inside, square;
+list-style-image: url(images/home/dot.gif);
+}
+
+ul { 
+margin-left:20px;
+line-height:150%;
+}
+
+.divNewTopic li {
+list-style-image: url(/cwbbs/images/home/arrow.gif);
+}
+
+.divDir ul {
+line-height:150%
+}
+.divDir li {
+list-style-image: url(images/home/focus.gif);
+}
+.divRank ul {
+line-height:150%
+}
+.STYLE1 {	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 16px;
+}
+--></style><script type="text/JavaScript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+    </head>
+    <body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onLoad="MM_preloadImages('/cwbbs/images/home/top2_05.gif','/cwbbs/images/home/top2_06.gif','/cwbbs/images/home/top2_07.gif','/cwbbs/images/home/top2_08.gif','/cwbbs/images/home/top2_09.gif','/cwbbs/images/home/top2_10.gif','/cwbbs/images/home/top2_11.gif','/cwbbs/images/home/top2_12.gif','/cwbbs/images/home/top2_13.gif','/cwbbs/images/home/top2_14.gif','/cwbbs/images/home/top2_15.gif','/cwbbs/images/home/top_16.gif')">
+        <table width="964" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td style="padding:0px"><iframe src="/cwbbs/header.jsp?dirCode={$request.dirCode}" frameborder="0" scrolling="no" width="100%" height="137"></iframe></td>
+          </tr>
+        </table>
+        <div align="center">
+          <table width="965" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td width="680" valign="top">
+<ul>
+<!--begin:list.subject dirCode=request.dirCode,pageSize=10-->
+<div style="padding:5px;" align="right">找到符合条 件的记录 {@paginator.total} 条　每页显示 {@paginator.pageSize} 条　页次 {@paginator.currentPage}/{@paginator.totalPages}</div>
+	  <li><a target="_blank" href="{@linkUrl}">{@title(len=30)}</a>&nbsp;&nbsp;[{@modifiedDate(format=yyyy-MM-dd HH:mm:ss)}]
+	  </li>
+<div style="padding:5px;" align="right">{@paginator.currentPageBlock}</div>
+<!--end:list.subject-->
+</ul>
+		</td>
+            <td width="290"><table width="285" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="285" height="35" background="/cwbbs/images/home/111_03.gif"><div>
+                  <table>
+                    <form action="search_full_text_do.jsp" method="post" name="bbssearch">
+                      <tbody>
+                        <tr>
+                          <td width="200"><div align="center">
+                            <input class="biao1" id="queryString" tabindex="1" size="23" name="queryString" type="text" />
+                            <input name="fieldName" value="content" type="hidden">
+                          </div></td>
+                          <td><input tabindex="2" type="image" src="/cwbbs/images/home/search.gif" name="B122" value="提交" /></td>
+                        </tr>
+                      </tbody>
+                    </form>
+                  </table>
+                </div></td>
+              </tr>
+              <tr>
+                <td height="25" background="/cwbbs/images/home/111new_09.gif">&nbsp;</td>
+              </tr>
+              <tr>
+                <td height="25" align="center"><iframe marginwidth="0" style="border:1 solid #CCCCCC;" src="/cwbbs/iframe_login.jsp" frameborder="0" width="288" height="104" scrolling="no"></iframe></td>
+              </tr>
+              <tr>
+                <td><a href="blog/user/userconfig_add.jsp"></a>
+                  <table id="Table_01" width="290" height="203" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td colspan="3"><img src="/cwbbs/images/home/experience_01.jpg" width="290" height="23" alt=""></td>
+                    </tr>
+                    <tr>
+                      <td width="141" height="180" bgcolor="#F1F5F6"><table width="100%">
+                          <tbody>
+                            <tr>
+                              <td width="100%" class="bbs1"><div class="divRank"> {$desktop.pos(0,13).content}</div></td>
+                            </tr>
+                          </tbody>
+                      </table></td>
+                      <td width="4" background="/cwbbs/images/home/experience_03.jpg">&nbsp;</td>
+                      <td width="145" height="180" bgcolor="#F1F5F6"><table width="100%">
+                          <tbody>
+                            <tr>
+                              <td class="bbs1"><div class="divRank">{$desktop.pos(0,14).content}</div></td>
+                            </tr>
+                          </tbody>
+                      </table></td>
+                    </tr>
+                  </table></td>
+              </tr>
+              
+              <tr>
+                <td height="32"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="32" background="/cwbbs/images/home/boardrank_14.jpg">&nbsp;<span class="STYLE1">&nbsp;&nbsp;&nbsp;&nbsp;最新发贴</span></td>
+                  </tr>
+                </table></td>
+              </tr>
+              <tr>
+                <td height="25" bgcolor="#e1eaef"><div class="divNewTopic" style="padding-left: 5px">{$desktop.pos(0,15).content}</div></td>
+              </tr>
+            </table></td>
+          </tr>
+        </table>
+        <table id="Table_01" height="82" cellspacing="0" cellpadding="0" width="964" border="0">
+            <tbody>
+                
+                <tr>
+                  <td width="964" bgcolor="#f1f5f6" height="73"><table id="Table_01" height="82" cellspacing="0" cellpadding="0" width="964" border="0">
+                    <tbody>
+                      <tr>
+                        <td width="964" bgcolor="#f1f5f6" height="73"><table id="Table_01" height="82" cellspacing="0" cellpadding="0" width="964" border="0">
+                            <tbody>
+                              <tr>
+                                <td width="964" background="/cwbbs/images/home/foot_01.gif" height="9"></td>
+                              </tr>
+                              <tr>
+                                <td width="964" bgcolor="#f1f5f6" height="73"><iframe src="/cwbbs/footer.jsp" frameborder="0" scrolling="no" width="100%" height="100"></iframe></td>
+                              </tr>
+                            </tbody>
+                        </table></td>
+                      </tr>
+                    </tbody>
+                  </table></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+{$ad.id(request.id).couple}	
+{$ad.id(request.id).float}	
+    </body>
+</html>

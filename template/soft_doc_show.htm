@@ -1,0 +1,162 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>{$Global.AppName}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK href="/cwbbs/template/css.css" type=text/css rel=stylesheet>
+</head>
+<body>
+<div class="content">
+{$cms.include(page=template/header.htm)}
+  <div class="notice"> <span class="notice_title">网站公告：</span>
+    <marquee class="notice_content" scrolldelay="20" direction="left" scrollamount="2">
+    {$forum.notice}
+    </marquee>
+    <span class="notice_search">
+	<form action="search_full_text_do.jsp" method="post">	
+    <input class="notice_search_input" name="queryString">
+    <input type="hidden" name="fieldName" value="content" />
+    <input type="image" src="/cwbbs/template/images/btn_search.gif" align="middle" width="74" height="19">
+    </form></span></div>
+  <div class="middle">
+    <div class="main">
+     <div class="docBorder">
+       <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+         <tr>
+           <td height="22">首页&nbsp;<font style="font-family:'宋体'">{$leaf.code(auto).nav}</font></td>
+         </tr>
+       </table>
+       <table cellSpacing="0" cellPadding="5" width="100%" align="center" border="0">
+         <tbody>
+           <tr>
+             <td height="39" align="center"><strong>{$doc.id(request.id).title}</strong></td>
+           </tr>
+           <tr>
+             <td height="20" align="center" bgcolor="#e4e4e4"> 作者：{$doc.id(request.id).author}&nbsp;&nbsp;&nbsp;日期：{$doc.id(request.id).modifiedDate(format=yyyy-MM-dd HH:mm:ss)}&nbsp;&nbsp;
+               访问次数：
+               <script src="/cwbbs/inc/doc_hit_count.jsp?id={$request.id}"></script>
+               &nbsp;&nbsp;来源：{$doc.id(request.id).source}
+              {$doc.id(request.id).postComment}</td>
+           </tr>
+         </tbody>
+       </table>
+       <table width="100%" border="0" align="center" cellpadding="0" cellspacing="0"  style="padding-top:10px; padding-left:10px; padding-right:10px;">
+  <tr>
+    <td>
+		<p>{$ad.id(request.id).doc} 
+         {$doc.id(request.id).content}</p>
+       <p>&nbsp;</p>
+       </td>
+  </tr>
+</table>
+
+       <table style="BORDER-COLLAPSE: collapse" borderColor="#ffffff" cellSpacing="0" cellPadding="3" width="100%" border="0" id="table1">
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 软件评价：</td>
+           <td width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all">{$softDoc.id(request.id).softRank}　</td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 运行环境：</td>
+           <td width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> {$softDoc.id(request.id).os}</td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 界面预览：</td>
+           <td width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> {$softDoc.id(request.id).smallImg} </td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 授权方式：</td>
+           <td width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> {$softDoc.id(request.id).accredit}　</td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 软件大小：</td>
+           <td width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> {$softDoc.id(request.id).fileSize} {$softDoc.id(request.id).unit}
+             <form style="DISPLAY: inline" name="testtime">
+                 <span id="test_time" name="test_time">&nbsp;</span>
+               </form>
+           </td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 上传时间：</td>
+           <td width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> {$doc.id(request.id).createDate(format=yyyy-MM-dd HH:mm)}</td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 更新时间：</td>
+           <td width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> {$doc.id(request.id).modifiedDate(format=yyyy-MM-dd HH:mm)}　</td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 文件类型：</td>
+           <td width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all"><img src="{$softDoc.id(request.id).fileIcon}" border="0">{$softDoc.id(request.id).fileType} 　</td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 相关链接：</td>
+           <td align="left" width="555" colSpan="2" height="20" style="font-size: 12px; color: #000000; word-break: break-all"><u><a href="{$softDoc.id(request.id).officalUrl}" target="_blank">程序作者或厂商主页</a></u> &nbsp;&nbsp;<a href="{$softDoc.id(request.id).officalDemo}" target="_blank">程序演示</a></td>
+         </tr>
+         <tr>
+           <td align="middle" width="101" height="20" style="font-size: 12px; color: #000000; word-break: break-all"> 下载统计：</td>
+           <td align="left" width="555" height="20" style="font-size: 12px; color: #000000; word-break: break-all"><a target="_blank" alt="请用winrar解压缩" style="color: #000000; text-decoration: none" href="http://down.chinaz.com/query.asp?keyword=winrar&action=title">{$softDoc.id(request.id).downloadCount}</a> 　</td>
+         </tr>
+         <tr>
+           <td height="20" align="middle" valign="top" style="font-size: 12px; color: #000000; word-break: break-all">下载地址：</td>
+           <td align="left" height="20" style="font-size: 12px; color: #000000; word-break: break-all"><a target="_blank" alt="请用winrar解压缩" style="color: #000000; text-decoration: none" href="http://down.chinaz.com/query.asp?keyword=winrar&action=title">{$softDoc.id(request.id).softUrl}</a> </td>
+         </tr>
+       </table>
+       <table width="98%"  border="0" cellspacing="0" cellpadding="0">
+         <tr>
+           <td width="6" height="26"></td>
+           <td width="562" background="//cwbbs/images/correlation.gif"><strong>相关文章：</strong></td>
+         </tr>
+         <tr>
+           <td></td>
+           <td align="left"><table width="100%" border=0 align="left" cellpadding="0" cellspacing="0" class="p9">
+               <tr>
+                 <td height=20 align="left">{$doc.id(request.id).relatedDoc}</td>
+               </tr>
+           </table></td>
+         </tr>
+       </table>
+      {$ad.id(request.id).docBottom} </div>
+    </div>
+    <div class="right">
+      <div class="right_box_top"> <img src="/cwbbs/template/images/icon_arrow1.gif" width="9" height="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网站登录 </div>
+      <div class="right_box_middle"><iframe style="margin-left:10px" marginwidth="0" src="/cwbbs/iframe_login.jsp" frameborder="0" width="232" scrolling="no" height="140"></iframe>
+	  </div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top"> <span>>> 更多</span>
+        <li>都市酒吧</li>
+      </div>
+      <div class="right_box_middle">
+<ul>
+<!--begin:list.dir dirCode=auto-->
+<li><a href="{@linkUrl}">{@name(len=30)}</a></li>
+<!--end:list.dir-->
+</ul>	  
+	  </div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top">
+         <span>>> 更多</span>
+        <li>最新贴子</li>
+      </div>
+      <div class="right_box_middle">{$forum.listTopic(len=36)}</div>
+      <div class="right_box_bottom"></div>
+      <div class="ad_right_box"><img src="/cwbbs/template/images/ad_right.gif">
+	  {$cms.ad(id=71)}
+	  </div>
+      <div class="right_box_top">
+ <span>>> <a href="{$forum.listTopic(boardcode=trade,more=y)}">更多</a></span>
+        <li>同城交易</li>      
+      </div>
+      <div class="right_box_middle">{$forum.listTopic(boardcode=trade,target=_blank)}</div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top">
+ <span>>> <a href="{$forum.listUser(type=new,more=y)}">更多</a></span>
+        <li>最新用户</li>      
+      </div>
+      <div class="right_box_middle">{$forum.listUser(type=new)}</div>
+      <div class="right_box_bottom"></div>
+    </div>
+  </div>
+  <div class="bottom">{$ad.id(request.id).footer}{$ad.id(request.id).couple} {$ad.id(request.id).float}</div>
+</div>
+{$cms.include(page=template/footer.htm)}
+</body>
+</html>

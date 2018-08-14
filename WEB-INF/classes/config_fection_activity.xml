@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <note>
+        <error_id desc="错误：活动编号不正确">活动编号不正确12355</error_id>
+        <error_input desc="错误：输入格式错误">输入格式错误</error_input>
+        <error_activity_lost desc="错误：活动%s不存在">活动%s不存</error_activity_lost>
+		<error_activity_expire desc="错误：该活动已过期，不能再进行相关操作！">该活动已过期，不能再进行相关操作！</error_activity_expire>
+		<info_create_account desc="系统已自动为您创建了帐号，您的帐号是：%s 密码是：%s">系统已自动为您创建了帐号，您的帐号是：%s 密码是：%s</info_create_account>
+        <error_nick_not_found desc="错误：用户%s在系统中未找到，请重新输入呢称">用户%s在系统中未找到，请重新输入呢称</error_nick_not_found>
+        <error_auth_faile desc="错误：用户名和密码验证未能通过">用户名和密码验证未能通过</error_auth_faile>
+		<error_level desc="您的级别不够，不能参加该活动！">您的级别不够，不能参加该活动！</error_level>
+        <error_already_attended desc="错误：您已经加入过了该活动！您加入时使用的呢称是%s">您已经加入过了该活动！您加入时使用的呢称是：%s</error_already_attended>
+        <info_attend_success_reward desc="信息：您已成功加入该活动，得到赠送的%s %s！">您已成功加入该活动，得到赠送的%s %s！</info_attend_success_reward>
+        <info_attend_success desc="信息：您已成功加入该活动！">您已成功加入该活动！</info_attend_success>
+    </note>
+</config>
+

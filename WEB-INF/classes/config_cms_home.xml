@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <recommand />
+    <focus>
+        <abstract />
+    </focus>
+    <ads>
+        <ad id="1">&lt;p&gt;&lt;img height="0" alt=" width="0" src="/cwbbs/forum/upfile/media/2008/1/12000162869841799509036.jpg" /&gt;&lt;img style="width: 277px; height: 133px" height="173" alt=" width="331" src="/cwbbs/forum/upfile/media/2008/1/12000162869841799509036.jpg" /&gt;&lt;/p&gt;</ad>
+        <ad id="2">&lt;p&gt;&lt;img alt=" border=" src="/blog/images/home/adb.gif" /&gt;&lt;/p&gt;</ad>
+        <ad id="3">&lt;p&gt;dddd&lt;/p&gt;</ad>
+        <ad id="4">&lt;p&gt;&lt;img alt=" border=" src="/blog/images/home/ad3.gif" /&gt;&lt;/p&gt;</ad>
+        <ad id="5">&lt;p&gt;&lt;img alt=" src="http://localhost:8080/cwbbs/blog/images/home/adc.gif" /&gt;&lt;/p&gt;</ad>
+        <ad id="6">&lt;p&gt;&lt;a href="/blog/desktop_view.jsp?item=blog#"&gt;&lt;img alt=" border=" home=" images=" blog=" cwbbs=" src="/blog/images/home/banner.gif" /&gt;&lt;/a&gt;&lt;/p&gt;</ad>
+        <ad id="7">&lt;p&gt;&lt;img alt=" border="0" src="http://localhost:8080/cwbbs/blog/images/home/ad2.gif" /&gt;&lt;/p&gt;</ad>
+    </ads>
+    <importDocId />
+    <videoDocId />
+</config>
+

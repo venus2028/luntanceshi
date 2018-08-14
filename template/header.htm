@@ -1,0 +1,38 @@
+<div class="top_above">{$Global.AppRealName}</div>
+<div class="top">
+<div class="logo"><img alt="" src="/cwbbs/template/images/top_logo.gif" /></div>
+<div class="top_ad">{$ad.id(request.id).header}</div>
+<div class="top_right">设为首页<br />
+加入收藏<br />
+关于我们</div>
+</div>
+
+<div class="nav">{$nav.0}</div>
+<!--<div class="nav"><script src="/cwbbs/doc/js/nav_0_sub.js"></script></div>-->
+<script src="/cwbbs/inc/common.js"></script>
+<script type="text/JavaScript">
+navHover = function() {
+  var lis = document.getElementById("navmenu").getElementsByTagName("LI");
+  for (var i=0; i<lis.length; i++) {
+    lis[i].onmouseover=function() {
+      this.className+=" iehover";
+    }
+    lis[i].onmouseout=function() {
+      this.className=this.className.replace(new RegExp(" iehover\\b"), "");
+    }
+  }
+}
+if (window.attachEvent) window.attachEvent("onload", navHover);
+</script>
+<script>
+// used by nav_0_sub.js
+function showColumnItem(code) {
+	var obj = document.getElementsByTagName("div");
+	for (var i=0; i<obj.length; i++) {
+		if (obj[i].id.indexOf("columnItem_")==0) {
+			obj[i].style.display = "none";
+		}
+	}
+	$("columnItem_"+code).style.display="";
+}
+</script>

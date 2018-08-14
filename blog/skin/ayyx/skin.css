@@ -1,0 +1,360 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/bg.jpg);
+	font-size: 12px;
+	background-color:black;
+	  scrollbar-DarkShadow-Color:rgb(120,172,255);   
+  scrollbar-3dLight-Color:rgb(120,172,255);   
+  scrollbar-Arrow-Color:blue;   
+  scrollbar-Base-Color:rgb(234,242,255);   
+  scrollbar-Face-Color:rgb(234,242,255);   
+  scrollbar-Highlight-Color:rgb(234,242,255);   
+  scrollbar-Shadow-Color:rgb(234,242,255);   
+  scrollbar-Track-Color:white ;
+}
+.li {
+	line-height: 1.5;
+	list-style-type: none;
+	list-style-position: inside;
+}
+a:link {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 12px;
+}
+a:visited {
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.content {
+	text-align: center;
+	width: 1000px;
+	margin: auto;
+}
+.top {
+	margin: 0px;
+	padding: 0px;
+	width: 1000px;
+	float: left;
+	height: 181px;
+	background-image: url(images/top.jpg);
+}
+
+.middle {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 1000px;
+	background-image: url(images/bgcenter.jpg);
+}
+.left {
+	float: left;
+	width: 544px;
+	padding: 0px;
+	margin-left: 86px;
+	display:inline;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	clear: left;
+}
+.right {
+	float: left;
+	width: 220px;
+	margin-left: 15px;
+    display:inline;
+	text-align: left;
+}
+.bottom {
+	background-image: url(images/bgbottom.jpg);
+	float: left;
+	height: 89px;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.blogname {
+	height: 35px;
+	width: 500px;
+	float: left;
+	margin-top: 40px;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 24px;
+	color: #FFFFFF;
+	font-family: "黑体";
+}
+.bloglink {
+	height: 30px;
+	width: 500px;
+	float: left;
+	margin-left: 50px;
+	text-align: left;
+	font-size: 14px;
+	color: #FFFFFF;
+	font-family: "黑体";
+	clear: left;
+}
+.bloglink a:link {
+	font-size: 14px;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.bloglink a:visited {
+	font-size: 14px;
+	color: #CCCCCC;
+	text-decoration: none;
+}
+.bloglink a:hover {
+	font-size: 14px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+.subject_l {
+	height: 37px;
+	width: 800px;
+	float: left;
+	margin-top: 33px;
+	margin-left: 120px;
+	display:inline;
+	text-align: left;
+	padding: 0px;
+}
+.subject_l li {
+	list-style-position: inside;
+	list-style-type: none;
+	float: left;
+	height: 22px;
+	background-position: center;
+	line-height: 22px;
+	margin-left: 5px;
+	padding: 2px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.subject_l li a:link {
+	color: #B7B7B7;
+	text-decoration: none;
+	font-size: 12px;
+}
+.subject_l li a:visited {
+	font-size: 12px;
+	color: #B7B7B7;
+	text-decoration: none;
+}
+.subject_l li a:hover {
+	font-size: 12px;
+	color: #B7B7B7;
+	text-decoration: underline;
+}
+
+.subject_l ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+
+}
+.titletop {
+	background-image: url(images/titletop.jpg);
+	height: 24px;
+	width: 226px;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.titlemiddle {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 226px;
+	background-image: url(images/titlemiddle.jpg);
+	color:#eeeeee;
+	
+}
+.titlemiddle ul {
+	padding: 0px;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 8px;
+	width: 200px;
+	line-height:150%;
+	color:#eeeeee;
+}
+.titlemiddle li {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	text-align: left;
+	line-height: 1.5;
+	list-style-position: inside;
+	list-style-type: circle;
+	color:#eeeeee;
+}
+
+.titlebottom {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	font-size:1px;
+	height: 5px;
+	width: 226px;
+	background-image: url(images/titlebottom.jpg);
+}
+.classtitle {
+	height: 16px;
+	width: 120px;
+	float: left;
+	margin-left: 65px;
+	display:inline;
+	margin-top: 5px;
+	font-size: 14px;
+	color: #eeeeee;
+	text-align: left;
+	padding: 0px;
+}
+.logtop {
+	float: left;
+	width: 544px;
+	height: 26px;
+	margin: 0px;
+	padding: 0px;
+	background-image: url(images/logtop.jpg);
+}
+.logmiddle {
+	float: left;
+	width: 544px;
+	background-image: url(images/logmiddle.jpg);
+	margin: 0px;
+	padding: 0px;
+}
+.logbottom {
+	float: left;
+	height: 24px;
+	width: 544px;
+	background-image: url(images/logbottom.jpg);
+	margin: 0px;
+	padding: 0px;
+	clear: left;
+	color:#FFFFFF;
+}
+.logtitle {
+	width: 500px;
+	float: left;
+	height: 16px;
+	margin-top: 10px;
+	margin-left: 10px;
+	display:inline;
+	color: #eeeeee;
+}
+.logtext {
+text-align:left;
+	float: left;
+	width: 520px;
+	line-height: 1.5;
+	font-size: 14px;
+	display: inline;
+	padding: 0px;
+	margin-left: 25px;
+	color: #eeeeee;
+	overflow:auto;
+}
+.logtext li
+{
+margin-right:5px;
+}
+.logmore {
+	float: left;
+	width: 520px;
+	padding: 0px;
+	margin-top: 0px;
+	text-align: right;
+}
+.login {
+	width: 170px;
+	line-height: 1.5;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 20px;
+	float: left;
+	display: inline;
+}
+.foot {
+	float: left;
+	height: 80px;
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+	color: #FFFFFF;
+	font-size: 12px;
+	line-height: 25px;
+}
+
+#morelog {
+	float: left;
+	width: 660px;
+	padding: 0px;
+	margin-top: 13px;
+}
+
+#form_comment {
+	float: left;
+	width: 660px;
+	padding: 0px;
+	margin-top: 13px;
+}
+
+.calendar {
+font-size:9pt;
+}
+
+.calendar .dayCell {
+background-color:#CCCCCC;
+}
+
+.calendar .curDayCell {
+background-color:#33CC66;
+}
+
+.pageBlock {
+color:#FFFFFF;
+text-align:right;
+}
+.pageBlock input {
+
+display:inline;
+}
+.td_comment_bar {
+background-color:#CCCCCC;
+color:#000033;
+font-weight:bold;
+}
+
+.user {
+text-align:center;
+}
+
+.comment {
+margin-top:20px;
+font-size:12px;
+}
+.comment_t {
+margin-top:10px;
+border-bottom:1px dashed #cccccc;
+}

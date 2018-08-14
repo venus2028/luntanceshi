@@ -1,0 +1,277 @@
+2018-08-08 14:28:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 14:28:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:33:29 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 14:33:29
+2018-08-08 14:33:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 14:33:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:33:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 14:33:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:38:29 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 14:38:29
+2018-08-08 14:38:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 14:38:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:38:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 14:38:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:43:29 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 14:43:29
+2018-08-08 14:43:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 14:43:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:43:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 14:43:29 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:48:30 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 14:48:30
+2018-08-08 14:48:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 14:48:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:48:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 14:48:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:53:30 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 14:53:30
+2018-08-08 14:53:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 14:53:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:53:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 14:53:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:58:30 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 14:58:30
+2018-08-08 14:58:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 14:58:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 14:58:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 14:58:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 15:03:30 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 15:03:30
+2018-08-08 15:03:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 15:03:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 15:03:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 15:03:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 15:08:30 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 15:08:30
+2018-08-08 15:08:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 15:08:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 15:08:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 15:08:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 15:13:30 INFO cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - refreshOnlineUser1:2018-08-08 15:13:30
+2018-08-08 15:13:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.OnlineUserDb - list: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=1' at line 1
+2018-08-08 15:13:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - load:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 15:13:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.ForumDb - Column 'GUEST_ACTION' cannot be null
+2018-08-08 15:13:30 ERROR cn.js.fan.kernel.Scheduler com.redmoon.forum.plugin.auction.AuctionSchedulerUnit - action:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'OPTION SQL_SELECT_LIMIT=DEFAULT' at line 1
+2018-08-08 15:15:31 INFO localhost-startStop-2 org.logicalcobwebs.proxool.aaa - Shutting down 'aaa' pool immediately [localhost-startStop-2]
+2018-08-08 15:15:31 INFO localhost-startStop-2 org.logicalcobwebs.proxool.cloudweb_db - Shutting down 'cloudweb_db' pool immediately [localhost-startStop-2]
+2018-08-08 15:15:31 INFO localhost-startStop-2 org.logicalcobwebs.proxool.zjrj - Shutting down 'zjrj' pool immediately [localhost-startStop-2]
+2018-08-08 15:15:31 INFO localhost-startStop-2 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-08-08 15:15:31 INFO localhost-startStop-2 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-08-08 15:15:31 INFO localhost-startStop-2 org.quartz.core.QuartzScheduler - Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutdown complete.
+2018-08-08 15:15:32 WARN Thread-9 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Disk cache not shutdown properly, shutting down now.
+2018-08-14 11:39:59 INFO localhost-startStop-1 org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2018-08-14 11:40:00 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/addressing-1.5.1.mar
+2018-08-14 11:40:00 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/axis2-jaxws-mar-1.5.1.mar
+2018-08-14 11:40:00 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/axis2-scripting-1.5.1.mar
+2018-08-14 11:40:00 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/mex-1.5.1.mar
+2018-08-14 11:40:00 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/mtompolicy-1.5.1.mar
+2018-08-14 11:40:00 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/ping-1.5.1.mar
+2018-08-14 11:40:00 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/soapmonitor-1.5.1.mar
+2018-08-14 11:40:00 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.5.1-impl - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/lib/mex-1.5.1-impl.jar
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.8.3 (14-Dec-2003 16:06)
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheManager - Creating cache manager from config file: /cache.ccf
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.utils.threadpool.ThreadPoolManager - thread_pool.default PoolConfiguration = useBoundary = [true] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Setting default auxiliaries to DC
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 1000, maxSpoolPerRun = -1, diskUsagePattern = 0 ]
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - No special ElementAttribute class defined for key [jcs.default.elementattributes], using default class.
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - setting defaultElementAttributes to [ IS_LATERAL = true, IS_SPOOL = true, IS_REMOTE = true, IS_ETERNAL = false, MaxLifeSeconds = 3600, IdleTime = 1800, CreateTime = 1534218001114, LastAccessTime = 1534218001114, getTimeToLiveSeconds() = 3599, createTime = 1534218001114 ]
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - No special ElementAttribute class defined for key [jcs.region.RMCache.elementattributes], using default class.
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.memory.lru.LRUMemoryCache - initialized LRUMemoryCache for RMCache
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCache - Constructed cache with name [RMCache] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 1200, maxSpoolPerRun = 100, diskUsagePattern = 0 ]
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Cache file root directory: D:/Tomcat 8.5/webapps/cwbbs/CacheTemp
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Set maxKeySize to: '10000'
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Indexed Disk Cache is alive.
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Parsed regions [RMCache]
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Finished configuration in 124 ms.
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: localhost-startStop-1
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.quartz.core.QuartzScheduler - Quartz Scheduler v.1.6.0 created.
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-14 11:40:01 INFO localhost-startStop-1 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.6.0
+2018-08-14 11:40:01 ERROR localhost-startStop-1 org.logicalcobwebs.proxool.ProxoolDriver - Problem
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'cwbbs'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2934)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3333)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1232)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2749)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.logicalcobwebs.proxool.ProxyFactory.buildProxyConnection(ProxyFactory.java:41)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:150)
+	at org.logicalcobwebs.proxool.PrototyperController.buildConnection(PrototyperController.java:88)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:222)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.cloudwebsoft.framework.db.Connection.initNotUsePool(Connection.java:107)
+	at com.cloudwebsoft.framework.db.Connection.<init>(Connection.java:69)
+	at com.cloudwebsoft.framework.base.QObjectDb.list(QObjectDb.java:759)
+	at cn.js.fan.module.cms.kernel.SchedulerManager.init(SchedulerManager.java:49)
+	at cn.js.fan.module.cms.kernel.SchedulerManager.getInstance(SchedulerManager.java:35)
+	at cn.js.fan.module.cms.kernel.AppInit.init(AppInit.java:67)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:983)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4978)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5290)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1140)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 11:40:01 ERROR localhost-startStop-1 com.cloudwebsoft.framework.db.Connection - SQL Exception occur. Message is:
+2018-08-14 11:40:01 ERROR localhost-startStop-1 com.cloudwebsoft.framework.db.Connection - Unknown database 'cwbbs'
+2018-08-14 11:43:39 INFO localhost-startStop-3 org.logicalcobwebs.proxool.cloudweb_db - Shutting down 'cloudweb_db' pool immediately [localhost-startStop-3]
+2018-08-14 11:43:39 INFO localhost-startStop-3 org.logicalcobwebs.proxool.zjrj - Shutting down 'zjrj' pool immediately [localhost-startStop-3]
+2018-08-14 11:43:39 INFO localhost-startStop-3 org.logicalcobwebs.proxool.aaa - Shutting down 'aaa' pool immediately [localhost-startStop-3]
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/addressing-1.5.1.mar
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/axis2-jaxws-mar-1.5.1.mar
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/axis2-scripting-1.5.1.mar
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/mex-1.5.1.mar
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/mtompolicy-1.5.1.mar
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/ping-1.5.1.mar
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/soapmonitor-1.5.1.mar
+2018-08-14 11:44:47 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.5.1-impl - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/lib/mex-1.5.1-impl.jar
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.8.3 (14-Dec-2003 16:06)
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheManager - Creating cache manager from config file: /cache.ccf
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.utils.threadpool.ThreadPoolManager - thread_pool.default PoolConfiguration = useBoundary = [true] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Setting default auxiliaries to DC
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 1000, maxSpoolPerRun = -1, diskUsagePattern = 0 ]
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - No special ElementAttribute class defined for key [jcs.default.elementattributes], using default class.
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - setting defaultElementAttributes to [ IS_LATERAL = true, IS_SPOOL = true, IS_REMOTE = true, IS_ETERNAL = false, MaxLifeSeconds = 3600, IdleTime = 1800, CreateTime = 1534218288325, LastAccessTime = 1534218288325, getTimeToLiveSeconds() = 3599, createTime = 1534218288325 ]
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - No special ElementAttribute class defined for key [jcs.region.RMCache.elementattributes], using default class.
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.memory.lru.LRUMemoryCache - initialized LRUMemoryCache for RMCache
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCache - Constructed cache with name [RMCache] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 1200, maxSpoolPerRun = 100, diskUsagePattern = 0 ]
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Cache file root directory: D:/Tomcat 8.5/webapps/cwbbs/CacheTemp
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Set maxKeySize to: '10000'
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Indexed Disk Cache is alive.
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Parsed regions [RMCache]
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Finished configuration in 80 ms.
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: localhost-startStop-1
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.quartz.core.QuartzScheduler - Quartz Scheduler v.1.6.0 created.
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-14 11:44:48 INFO localhost-startStop-1 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.6.0
+2018-08-14 11:44:48 ERROR localhost-startStop-1 org.logicalcobwebs.proxool.ProxoolDriver - Problem
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'cwbbs'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2934)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3333)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1232)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2749)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.logicalcobwebs.proxool.ProxyFactory.buildProxyConnection(ProxyFactory.java:41)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:150)
+	at org.logicalcobwebs.proxool.PrototyperController.buildConnection(PrototyperController.java:88)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:222)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.cloudwebsoft.framework.db.Connection.initNotUsePool(Connection.java:107)
+	at com.cloudwebsoft.framework.db.Connection.<init>(Connection.java:69)
+	at com.cloudwebsoft.framework.base.QObjectDb.list(QObjectDb.java:759)
+	at cn.js.fan.module.cms.kernel.SchedulerManager.init(SchedulerManager.java:49)
+	at cn.js.fan.module.cms.kernel.SchedulerManager.getInstance(SchedulerManager.java:35)
+	at cn.js.fan.module.cms.kernel.AppInit.init(AppInit.java:67)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:983)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4978)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5290)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1140)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 11:44:48 ERROR localhost-startStop-1 com.cloudwebsoft.framework.db.Connection - SQL Exception occur. Message is:
+2018-08-14 11:44:48 ERROR localhost-startStop-1 com.cloudwebsoft.framework.db.Connection - Unknown database 'cwbbs'
+2018-08-14 11:52:36 INFO localhost-startStop-2 org.logicalcobwebs.proxool.cloudweb_db - Shutting down 'cloudweb_db' pool immediately [localhost-startStop-2]
+2018-08-14 11:52:36 INFO localhost-startStop-2 org.logicalcobwebs.proxool.zjrj - Shutting down 'zjrj' pool immediately [localhost-startStop-2]
+2018-08-14 11:52:36 INFO localhost-startStop-2 org.logicalcobwebs.proxool.aaa - Shutting down 'aaa' pool immediately [localhost-startStop-2]
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ClusterBuilder - Clustering has been disabled
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: addressing-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/addressing-1.5.1.mar
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: jaxws-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/axis2-jaxws-mar-1.5.1.mar
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: script-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/axis2-scripting-1.5.1.mar
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/mex-1.5.1.mar
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: mtompolicy-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/mtompolicy-1.5.1.mar
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: ping-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/ping-1.5.1.mar
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: soapmonitor-1.5.1 - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/modules/soapmonitor-1.5.1.mar
+2018-08-14 11:57:18 INFO localhost-startStop-1 org.apache.axis2.deployment.ModuleDeployer - Deploying module: metadataExchange-1.5.1-impl - file:/D:/Tomcat 8.5/webapps/cwbbs/WEB-INF/lib/mex-1.5.1-impl.jar
+2018-08-14 11:57:19 INFO localhost-startStop-1 org.logicalcobwebs.proxool.ProxoolFacade - Proxool 0.8.3 (14-Dec-2003 16:06)
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheManager - Creating cache manager from config file: /cache.ccf
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.utils.threadpool.ThreadPoolManager - thread_pool.default PoolConfiguration = useBoundary = [true] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [300000] whenBlockedPolicy = [RUN] startUpSize = [4]
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Setting default auxiliaries to DC
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 1000, maxSpoolPerRun = -1, diskUsagePattern = 0 ]
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - No special ElementAttribute class defined for key [jcs.default.elementattributes], using default class.
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - setting defaultElementAttributes to [ IS_LATERAL = true, IS_SPOOL = true, IS_REMOTE = true, IS_ETERNAL = false, MaxLifeSeconds = 3600, IdleTime = 1800, CreateTime = 1534219040064, LastAccessTime = 1534219040064, getTimeToLiveSeconds() = 3599, createTime = 1534219040064 ]
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - No special ElementAttribute class defined for key [jcs.region.RMCache.elementattributes], using default class.
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.memory.lru.LRUMemoryCache - initialized LRUMemoryCache for RMCache
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCache - Constructed cache with name [RMCache] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 1200, maxSpoolPerRun = 100, diskUsagePattern = 0 ]
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Cache file root directory: D:/Tomcat 8.5/webapps/cwbbs/CacheTemp
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Set maxKeySize to: '10000'
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.auxiliary.disk.indexed.IndexedDiskCache - Region [RMCache] Indexed Disk Cache is alive.
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Parsed regions [RMCache]
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.apache.jcs.engine.control.CompositeCacheConfigurator - Finished configuration in 102 ms.
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.quartz.simpl.SimpleThreadPool - Job execution threads will use class loader of thread: localhost-startStop-1
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.quartz.core.QuartzScheduler - Quartz Scheduler v.1.6.0 created.
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.quartz.simpl.RAMJobStore - RAMJobStore initialized.
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'DefaultQuartzScheduler' initialized from default resource file in Quartz package: 'quartz.properties'
+2018-08-14 11:57:20 INFO localhost-startStop-1 org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 1.6.0
+2018-08-14 11:57:20 ERROR localhost-startStop-1 org.logicalcobwebs.proxool.ProxoolDriver - Problem
+com.mysql.jdbc.exceptions.MySQLSyntaxErrorException: Unknown database 'cwbbs'
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:936)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:2934)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:870)
+	at com.mysql.jdbc.MysqlIO.secureAuth411(MysqlIO.java:3333)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1232)
+	at com.mysql.jdbc.Connection.createNewIO(Connection.java:2749)
+	at com.mysql.jdbc.Connection.<init>(Connection.java:1553)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:285)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at org.logicalcobwebs.proxool.ProxyFactory.buildProxyConnection(ProxyFactory.java:41)
+	at org.logicalcobwebs.proxool.Prototyper.buildConnection(Prototyper.java:150)
+	at org.logicalcobwebs.proxool.PrototyperController.buildConnection(PrototyperController.java:88)
+	at org.logicalcobwebs.proxool.ConnectionPool.getConnection(ConnectionPool.java:222)
+	at org.logicalcobwebs.proxool.ProxoolDriver.connect(ProxoolDriver.java:89)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.cloudwebsoft.framework.db.Connection.initNotUsePool(Connection.java:107)
+	at com.cloudwebsoft.framework.db.Connection.<init>(Connection.java:69)
+	at com.cloudwebsoft.framework.base.QObjectDb.list(QObjectDb.java:759)
+	at cn.js.fan.module.cms.kernel.SchedulerManager.init(SchedulerManager.java:49)
+	at cn.js.fan.module.cms.kernel.SchedulerManager.getInstance(SchedulerManager.java:35)
+	at cn.js.fan.module.cms.kernel.AppInit.init(AppInit.java:67)
+	at org.apache.catalina.core.StandardWrapper.initServlet(StandardWrapper.java:1144)
+	at org.apache.catalina.core.StandardWrapper.loadServlet(StandardWrapper.java:1091)
+	at org.apache.catalina.core.StandardWrapper.load(StandardWrapper.java:983)
+	at org.apache.catalina.core.StandardContext.loadOnStartup(StandardContext.java:4978)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5290)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:754)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:730)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:734)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1140)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1875)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2018-08-14 11:57:20 ERROR localhost-startStop-1 com.cloudwebsoft.framework.db.Connection - SQL Exception occur. Message is:
+2018-08-14 11:57:20 ERROR localhost-startStop-1 com.cloudwebsoft.framework.db.Connection - Unknown database 'cwbbs'
+2018-08-14 12:28:20 INFO Thread-9 org.apache.jcs.engine.memory.shrinking.ShrinkerThread - Exceeded maxIdleTime [GAN: groupId=[groupId=RMCache, QDBConfig], attrName=cn.js.fan.module.cms.kernel.JobUnitDb]

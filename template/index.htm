@@ -1,0 +1,130 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{$Global.AppName}</title>
+<link href="/cwbbs/template/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="content"> {$cms.include(page=template/header.htm)}
+  <div class="notice"><span class="notice_title">网站公告：</span>
+    <marquee class="notice_content" scrollamount="2" scrolldelay="20" onmouseover=stop() onmouseout=start()>
+    {$forum.notice}
+    </marquee>
+    <span class="notice_search">
+    <form action="search_full_text_do.jsp" method="post">
+      <input class="notice_search_input" name="queryString" type="text" />
+      <input type="hidden" name="fieldName" value="content" />
+      <input type="image" height="19" width="74" src="/cwbbs/template/images/btn_search.gif" align="middle" />
+    </form>
+    </span></div>
+  <div class="middle">
+    <div class="main">
+      <div class="flash_img">{$cms.flashImage(dirCode=first,w=249,h=165)}</div>
+      <div class="main_box_top"><span><a href="forum/index.jsp"><img alt="" src="/cwbbs/template/images/more1.gif" border="0" /></a></span>焦点热贴</div>
+      <div class="main_box_middle">{$forum.hot(date=y)}</div>
+      <div class="main_box_bottom"></div>
+      <div class="left_box_top">最新文章</div>
+      <div class="left_box_middle">{$cms.listDoc(row=10,date=true,len=10,dirName=true)}</div>
+      <div class="left_box_bottom"></div>
+      <div class="main_box_top">热门文章</div>
+      <div class="main_box_middle">{$cms.listDoc(hot=true,row=10,date=true,len=30)}</div>
+      <div class="main_box_bottom"></div>
+      <div class="photo_box_top">精彩图片</div>
+      <div class="photo_box_middle">{$cms.scrollImg(speed=30,title=y)}</div>
+      <div class="photo_box_bottom"></div>
+      <div class="main_box2">
+        <div class="main_box2_top"><span><a href="{$cms.listDoc(dir=first,more=y)}" target="_blank"><img alt="" src="/cwbbs/template/images/more2.gif" border="0" /></a></span>第一频道</div>
+        <div class="main_box2_middle">{$cms.listDoc(dir=first,row=10,date=true,len=30)}
+        </div>
+        <div class="main_box2_bottom"></div>
+      </div>
+      <div class="main_box2">
+        <div class="main_box2_top">推荐文章</div>
+        <div class="main_box2_middle">{$cms.recommand(date=true)}</div>
+        <div class="main_box2_bottom"></div>
+      </div>
+      <div class="main_box2">
+        <div class="main_box2_top"><span><a href="{$cms.listDoc(dir=test,more=y)}"><img alt="" src="/cwbbs/template/images/more2.gif"  border="0"/></a></span>最新软件</div>
+        <div class="main_box2_middle">{$softDoc.new(date=true)}</div>
+        <div class="main_box2_bottom"></div>
+      </div>
+	  <div class="main_box2">
+        <div class="main_box2_top"><span><a href="{$cms.listDoc(dir=test,more=y)}" target="_blank"></a></span>推荐软件</a></div>
+        <div class="main_box2_middle">{$softDoc.recommand(date=true)}</div>
+        <div class="main_box2_bottom"></div>
+      </div>
+      
+      <div class="main_box2">
+        <div class="main_box2_top">软件下载排行</div>
+        <div class="main_box2_middle2">{$softDoc.rank(type=month,dirName=true)}</div>
+        <div class="main_box2_bottom"></div>
+      </div>
+      <div class="main_box2">
+        <div class="main_box2_top">软件下载统计 </div>
+        <div class="main_box2_middle2">
+          <ul>
+            <li>全部软件数量：{$softDoc.stat(type=all)}个</li>
+            <li>本年软件数量：{$softDoc.stat(type=year)}个</li>
+            <li>本月软件数量：{$softDoc.stat(type=month)}个</li>
+            <li>今天软件数量：{$softDoc.stat(type=day)}个</li>
+            <li>昨天软件数量：{$softDoc.stat(type=yestoday)}个</li>
+            <li>前天软件数量：{$softDoc.stat(type=beforeyestoday)}个</li>
+          </ul>
+        </div>
+        <div class="main_box2_bottom"></div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="right_box_top"><img height="5" alt="" width="9" src="/cwbbs/template/images/icon_arrow1.gif" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网站登录</div>
+      <div class="right_box_middle">
+        <iframe style="margin-left: 10px" marginwidth="0" src="iframe_login.jsp" frameborder="0" width="232" scrolling="no" height="140"></iframe>
+      </div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top">
+        <li>站内统计</li>
+      </div>
+      <div class="right_box_middle">
+        <ul>
+          <li>全部文章数量：{$cms.stat(type=all)}篇</li>
+          <li>本年文章数量：{$cms.stat(type=year)}篇</li>
+          <li>本月文章数量：{$cms.stat(type=month)}篇</li>
+          <li>今天文章数量：{$cms.stat(type=day)}篇</li>
+          <li>昨天文章数量：{$cms.stat(type=yestoday)}篇</li>
+          <li>前天文章数量：{$cms.stat(type=beforeyestoday)}篇</li>
+          <li>当前在线人数：{$cms.stat(type=allonline)}位</li>
+          <li>会员在线人数：{$cms.stat(type=memberonline)}位</li>
+        </ul>
+      </div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top"><span>&gt;&gt; <a href="forum/index.jsp">更多</a></span>
+        <li>最新贴子</li>
+      </div>
+      <div class="right_box_middle">{$forum.listTopic(len=36,row=8)}</div>
+      <div class="right_box_bottom"></div>
+      <div class="ad_right_box"><img alt="" src="/cwbbs/template/images/ad_right.gif" /></div>
+      <div class="right_box_top"><span>&gt;&gt; <a href="{$forum.listTopic(boardcode=trade,more=y)}">更多</a></span>
+        <li>同城交易</li>
+      </div>
+      <div class="right_box_middle5">{$forum.listTopic(boardcode=trade,target=_blank,row=8)}</div>
+      <div class="right_box_bottom2"></div>
+      <div class="right_box_top"><span>&gt;&gt; <a href="{$forum.listUser(type=new,more=y)}">更多</a></span>
+        <li>最新用户</li>
+      </div>
+      <div class="right_box_middle2">{$forum.listUser(type=new,row=8)}</div>
+      <div class="right_box_bottom"></div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="linkStyle">{$cms.link}</div>
+    <div>{$ad.id(request.id).footer}</div>
+    {$ad.id(request.id).couple}
+    {$ad.id(request.id).float}
+  </div>
+</div>
+{$cms.include(page=template/footer.htm)}
+<div style="text-align:center">
+  <script src="cms/counter/counter.jsp"></script>
+</div>
+</body>
+</html>

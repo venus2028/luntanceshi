@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!--
+	<plugin code="home">
+		<author>Blue Wind</author>
+		<resource>res.forum.miniplugin.homepage</resource>		
+		<adminEntrance>../miniplugin/home/admin/manager.jsp</adminEntrance>
+		<isPlugin>true</isPlugin>		
+	</plugin>
+	<plugin code="weather">
+		<author>Blue Wind</author>
+		<resource>res.forum.miniplugin.weather</resource>		
+		<adminEntrance>../miniplugin/weather/admin/manager.jsp</adminEntrance>
+		<isPlugin>true</isPlugin>		
+	</plugin>
+-->
+    <plugin code="advertiseLink">
+        <author>Blue Wind</author>
+        <resource>res.forum.miniplugin.advertise_link</resource>
+        <adminEntrance />
+        <isPlugin>false</isPlugin>
+    </plugin>
+    <plugin code="index_new_elite_top">
+        <author>Blue Wind</author>
+        <resource>res.forum.miniplugin.index_new_elite_top</resource>
+        <adminEntrance>../miniplugin/index/admin/manager.jsp</adminEntrance>
+        <isPlugin>false</isPlugin>
+    </plugin>
+</config>
+

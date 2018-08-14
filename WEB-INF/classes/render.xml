@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<all>
+	<render code="default">
+		<name>默认显示</name>
+		<author>Fan Gang-feng</author>
+		<className>com.redmoon.forum.plugin.DefaultRender</className>
+	</render>
+	<render code="sweet">
+		<name>佳人有约显示</name>
+		<author></author>
+		<className>com.redmoon.forum.plugin.sweet.SweetRender</className>
+	</render>
+	<render code="RenderMM">
+		<name>多媒体方式显示附件</name>
+		<author></author>
+		<className>com.redmoon.forum.plugin.render.RenderMM</className>
+	</render>
+		<render code="witkey">
+		<name>威客显示</name>
+		<author></author>
+		<className>com.redmoon.forum.plugin.witkey.WitkeyRender</className>
+	</render>
+	<render code="refer">
+		<name>专家咨询</name>
+		<author></author>
+		<className>com.redmoon.forum.plugin.refer.ReferRender</className>
+	</render>
+	
+	<render code="reply">
+		<name>政务问答</name>
+		<author></author>
+		<className>com.redmoon.forum.plugin.reply.ReplyRender</className>
+	</render>		
+</all>
+

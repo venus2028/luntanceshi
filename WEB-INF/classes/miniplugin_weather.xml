@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<weather>
+		<url>http://weather.china.com.cn/city/58248.html</url>
+		<urlFull>http://weather.china.com.cn/city/58248_full.html</urlFull>
+	</weather>
+</config>

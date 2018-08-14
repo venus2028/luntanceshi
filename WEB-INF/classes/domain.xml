@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<domain>
+	<rule subDomain="*.shop">
+		<name>商店二级域名</name>
+		<url>forum/plugin/auction/shop.jsp?id=%s</url>
+		<className></className>
+		<isUsed>true</isUsed>
+		<exclude></exclude>
+		<isRegexMatch>true</isRegexMatch>
+		<isRedirect>true</isRedirect>
+	</rule>
+	<rule subDomain="*">
+		<name>网站二级域名</name>
+		<url>site.jsp?siteCode=%s</url>
+		<className></className>
+		<isUsed>true</isUsed>
+		<exclude>www,bbs,blog</exclude>	
+		<isRegexMatch>true</isRegexMatch>
+		<isRedirect>true</isRedirect>
+	</rule>
+	<rule subDomain="*.blog">
+		<name>博客二级域名</name>
+		<url>blog/myblog.jsp?blogId=%s</url>
+		<className></className>
+		<isUsed>true</isUsed>
+		<exclude>www,bbs,blog</exclude>	
+		<isRegexMatch>true</isRegexMatch>
+		<isRedirect>true</isRedirect>			
+	</rule>	
+	<rule subDomain="bbs">
+		<name>论坛二级域名</name>
+		<url>forum/index.jsp</url>
+		<className></className>
+		<isUsed>true</isUsed>
+		<exclude></exclude>
+		<isRegexMatch>false</isRegexMatch>
+		<isRedirect>true</isRedirect>		
+	</rule>
+</domain>

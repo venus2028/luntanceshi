@@ -1,0 +1,101 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>{$Global.AppName}</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<LINK href="/cwbbs/template/css.css" type=text/css rel=stylesheet>
+</head>
+<body>
+<div class="content">
+  {$cms.include(page=template/header.htm)}
+  <div class="notice"> <span class="notice_title">网站公告：</span>
+    <marquee class="notice_content" scrolldelay="20" direction="left" scrollamount="2">
+    {$forum.notice}
+    </marquee>
+    <span class="notice_search">
+	<form action="search_full_text_do.jsp" method="post">	
+    <input class="notice_search_input" name="queryString">
+    <input type="hidden" name="fieldName" value="content" />
+    <input type="image" src="/cwbbs/template/images/btn_search.gif" align="middle" width="74" height="19">
+    </form></span></div>
+  <div class="middle">
+    <div class="main">
+     <div class="docBorder list">
+<div>{$leaf.dirCode(request.dirCode).name}</div>	 
+<ul>
+<!--begin:list.doc dirCode=request.dirCode-->
+<div style="padding:5px;" align="right">{@paginator.pageStatics}&nbsp;{@paginator.currentPageBlock}</div>
+<li>
+<span>[{@modifiedDate(format=yy-MM-dd HH:mm)}]</span><a href="{@linkUrl}">{@title(len=80)}</a>
+</li>
+<li style="padding:5px;border:0px;float:right;background:;" align="right">{@paginator.currentPageBlock}</li>
+<!--end:list.doc-->
+</ul>
+      </div>
+    </div>
+    <div class="right">
+      <div class="right_box_top"><img src="/cwbbs/template/images/icon_arrow1.gif" width="9" height="5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网站登录 </div>
+      <div class="right_box_middle"><iframe style="margin-left:10px" marginwidth="0" src="/cwbbs/iframe_login.jsp" frameborder="0" width="232" scrolling="no" height="140"></iframe>
+	  </div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top"> <span>>> 更多</span>
+        <li></li>
+      </div>
+      <div class="right_box_middle">
+<ul>
+<!--begin:list.dir dirCode=auto,parent=y-->
+<li><a href="{@linkUrl}">{@name(len=30)}</a></li>
+<!--end:list.dir-->
+</ul>	  
+<table width="90%" border="0" align="center" cellpadding="5" cellspacing="0">
+                        <tr>
+                          <td>{$leaf.dirCode(request.dirCode).name}下载排行</td>
+                        </tr>
+                        <tr>
+                          <td>
+						  <script language="javascript" src="/cwbbs/cms/plugin/software/js.jsp?count=y&dirCode={$request.dirCode}">
+						  </script>
+						  </td>
+                        </tr>
+        </table>
+<table width="90%" border="0" align="center" cellpadding="5" cellspacing="0">
+                          <tr>
+                            <td>{$leaf.dirCode(request.dirCode).parentName}下载排行</td>
+                          </tr>
+                          <tr>
+                            <td><script language="javascript" src="/cwbbs/cms/plugin/software/js.jsp?count=y&parentCode={$leaf.dirCode(request.dirCode).parentCode}">
+						  </script>
+                            </td>
+                          </tr>
+        </table>					  
+	  </div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top">
+         <span>>> 更多</span>
+        <li>最新贴子</li>
+      </div>
+      <div class="right_box_middle">{$forum.listTopic(len=36)}</div>
+      <div class="right_box_bottom"></div>
+      <div class="ad_right_box"><img src="/cwbbs/template/images/ad_right.gif">
+	  {$cms.ad(id=71)}
+	  </div>
+      <div class="right_box_top">
+ <span>>> <a href="{$forum.listTopic(boardcode=trade,more=y)}">更多</a></span>
+
+        <li>同城交易</li>      
+      </div>
+      <div class="right_box_middle">{$forum.listTopic(boardcode=trade,target=_blank)}</div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top">
+ <span>>> <a href="{$forum.listUser(type=new,more=y)}">更多</a></span>
+        <li>最新用户</li>      
+      </div>
+      <div class="right_box_middle">{$forum.listUser(type=new)}</div>
+      <div class="right_box_bottom"></div>
+    </div>
+  </div>
+  <div class="bottom">{$ad.dirCode(request.dirCode).footer}{$ad.dirCode(request.dirCode).couple} {$ad.dirCode(request.dirCode).float}</div>
+</div>
+{$cms.include(page=template/footer.htm)}
+</body>
+</html>

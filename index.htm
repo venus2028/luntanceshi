@@ -1,0 +1,215 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>云网论坛</title>
+<link href="/cwbbs/template/css.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div class="content"> <div class="top_above">云网论坛</div>
+<div class="top">
+<div class="logo"><img alt="" src="/cwbbs/template/images/top_logo.gif" /></div>
+<div class="top_ad"><script src='/cwbbs/js.jsp?var=ad&dirCode=root&type=header'></script></div>
+<div class="top_right">设为首页<br />
+加入收藏<br />
+关于我们</div>
+</div>
+
+<div class="nav"><script src='/cwbbs/doc/js/nav_0.js'></script></div>
+<!--<div class="nav"><script src="/cwbbs/doc/js/nav_0_sub.js"></script></div>-->
+<script src="/cwbbs/inc/common.js"></script>
+<script type="text/JavaScript">
+navHover = function() {
+  var lis = document.getElementById("navmenu").getElementsByTagName("LI");
+  for (var i=0; i<lis.length; i++) {
+    lis[i].onmouseover=function() {
+      this.className+=" iehover";
+    }
+    lis[i].onmouseout=function() {
+      this.className=this.className.replace(new RegExp(" iehover\\b"), "");
+    }
+  }
+}
+if (window.attachEvent) window.attachEvent("onload", navHover);
+</script>
+<script>
+// used by nav_0_sub.js
+function showColumnItem(code) {
+	var obj = document.getElementsByTagName("div");
+	for (var i=0; i<obj.length; i++) {
+		if (obj[i].id.indexOf("columnItem_")==0) {
+			obj[i].style.display = "none";
+		}
+	}
+	$("columnItem_"+code).style.display="";
+}
+</script>
+
+  <div class="notice"><span class="notice_title">网站公告：</span>
+    <marquee class="notice_content" scrollamount="2" scrolldelay="20" onmouseover=stop() onmouseout=start()>
+    
+    </marquee>
+    <span class="notice_search">
+    <form action="search_full_text_do.jsp" method="post">
+      <input class="notice_search_input" name="queryString" type="text" />
+      <input type="hidden" name="fieldName" value="content" />
+      <input type="image" height="19" width="74" src="/cwbbs/template/images/btn_search.gif" align="middle" />
+    </form>
+    </span></div>
+  <div class="middle">
+    <div class="main">
+      <div class="flash_img"><script>
+var imgUrl1,imgtext1,imgLink1;
+var imgUrl2,imgtext2,imgLink2;
+var imgUrl3,imgtext3,imgLink3;
+var imgUrl4,imgtext4,imgLink4;
+var imgUrl5,imgtext5,imgLink5;
+var focus_width=249
+var focus_height=165
+var text_height=18
+var swf_height = focus_height+text_height
+var pics=imgUrl1+"|"+imgUrl2+"|"+imgUrl3+"|"+imgUrl4+"|"+imgUrl5
+var links=imgLink1+"|"+imgLink2+"|"+imgLink3+"|"+imgLink4+"|"+imgLink5
+var texts=imgtext1+"|"+imgtext2+"|"+imgtext3+"|"+imgtext4+"|"+imgtext5
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width='+ focus_width +' height='+ swf_height +'>');
+document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="/cwbbs/images/home/focus.swf"><param name="quality" value="high"><param name="bgcolor" value="#dfdfdf">');
+document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+document.write("<param name='FlashVars' value='pics="+pics+"&links="+links+"&texts="+texts+"&borderwidth="+focus_width+"&borderheight="+focus_height+"&textheight="+text_height+"'>");
+document.write("<embed src='/cwbbs/images/home/focus.swf' wmode='opaque' FlashVars='pics="+pics+"&links="+links+"&texts="+texts+"&borderwidth="+focus_width+"&borderheight="+focus_height+"&textheight="+text_height+"' menu='false' bgcolor='#dfdfdf' quality='high' width='"+ focus_width +"' height='"+ focus_height +"' allowScriptAccess='sameDomain' type='application/x-shockwave-flash' pluginspage='http://www.macromedia.com/go/getflashplayer' />");
+document.write('</object>');
+</script></div>
+      <div class="main_box_top"><span><a href="forum/index.jsp"><img alt="" src="/cwbbs/template/images/more1.gif" border="0" /></a></span>焦点热贴</div>
+      <div class="main_box_middle"></ul></div>
+      <div class="main_box_bottom"></div>
+      <div class="left_box_top">最新文章</div>
+      <div class="left_box_middle"><ul></ul></div>
+      <div class="left_box_bottom"></div>
+      <div class="main_box_top">热门文章</div>
+      <div class="main_box_middle"><ul></ul></div>
+      <div class="main_box_bottom"></div>
+      <div class="photo_box_top">精彩图片</div>
+      <div class="photo_box_middle"><DIV id=demo style='OVERFLOW: hidden; WIDTH: 100%;'><TABLE cellSpacing=0 cellPadding=0 align=left border=0 cellspace='0'><TBODY><TR><TD id=demo1 vAlign=top><table width='705' height='116'  border='0' cellpadding='0' cellspacing='0'><tr><td width='121'><div style='margin:1px;padding:3px;border:1px #cccccc solid;text-align:center' align='center' width='127' height='122'><a target=_blank href='template\images\1212042571593218489611.jpg'><img border=0 width='121' height='116' alt='1' src='template\images\1212042571593218489611.jpg'></a><BR>1</div></td><td width='121'><div style='margin:1px;padding:3px;border:1px #cccccc solid;text-align:center' align='center' width='127' height='122'><a target=_blank href='template\images\1212042571593193502198.jpg'><img border=0 width='121' height='116' alt='5' src='template\images\1212042571593193502198.jpg'></a><BR>5</div></td><td width='121'><div style='margin:1px;padding:3px;border:1px #cccccc solid;text-align:center' align='center' width='127' height='122'><a target=_blank href='template\images\1212042571593987395569.jpg'><img border=0 width='121' height='116' alt='2' src='template\images\1212042571593987395569.jpg'></a><BR>2</div></td><td width='121'><div style='margin:1px;padding:3px;border:1px #cccccc solid;text-align:center' align='center' width='127' height='122'><a target=_blank href='template\images\121204257159393966010.jpg'><img border=0 width='121' height='116' alt='4' src='template\images\121204257159393966010.jpg'></a><BR>4</div></td><td width='121'><div style='margin:1px;padding:3px;border:1px #cccccc solid;text-align:center' align='center' width='127' height='122'><a target=_blank href='template\images\1212042571593402969394.jpg'><img border=0 width='121' height='116' alt='3' src='template\images\1212042571593402969394.jpg'></a><BR>3</div></td></tr></table></TD><TD id=demo2 vAlign=top>&nbsp;</TD></TR></TBODY></TABLE></DIV><script>
+var speed3=30;
+demo2.innerHTML=demo1.innerHTML;
+function Marquee(){
+if(demo2.offsetWidth-demo.scrollLeft<=0)
+demo.scrollLeft-=demo1.offsetWidth;
+else{
+demo.scrollLeft++;
+}
+}
+var MyMar=setInterval(Marquee,speed3);
+demo.onmouseover=function() {clearInterval(MyMar)}
+demo.onmouseout=function() {MyMar=setInterval(Marquee,speed3)}
+</script>
+</div>
+      <div class="photo_box_bottom"></div>
+      <div class="main_box2">
+        <div class="main_box2_top"><span><a href="/cwbbs/doc_list_view.jsp?dirCode=first" target="_blank"><img alt="" src="/cwbbs/template/images/more2.gif" border="0" /></a></span>第一频道</div>
+        <div class="main_box2_middle"><ul></ul>
+        </div>
+        <div class="main_box2_bottom"></div>
+      </div>
+      <div class="main_box2">
+        <div class="main_box2_top">推荐文章</div>
+        <div class="main_box2_middle"><ul></ul></div>
+        <div class="main_box2_bottom"></div>
+      </div>
+      <div class="main_box2">
+        <div class="main_box2_top"><span><a href="/cwbbs/doc_list_view.jsp?dirCode=test"><img alt="" src="/cwbbs/template/images/more2.gif"  border="0"/></a></span>最新软件</div>
+        <div class="main_box2_middle"><ul></ul></div>
+        <div class="main_box2_bottom"></div>
+      </div>
+	  <div class="main_box2">
+        <div class="main_box2_top"><span><a href="/cwbbs/doc_list_view.jsp?dirCode=test" target="_blank"></a></span>推荐软件</a></div>
+        <div class="main_box2_middle"></div>
+        <div class="main_box2_bottom"></div>
+      </div>
+      
+      <div class="main_box2">
+        <div class="main_box2_top">软件下载排行</div>
+        <div class="main_box2_middle2"><ul></ul></div>
+        <div class="main_box2_bottom"></div>
+      </div>
+      <div class="main_box2">
+        <div class="main_box2_top">软件下载统计 </div>
+        <div class="main_box2_middle2">
+          <ul>
+            <li>全部软件数量：0个</li>
+            <li>本年软件数量：0个</li>
+            <li>本月软件数量：0个</li>
+            <li>今天软件数量：0个</li>
+            <li>昨天软件数量：0个</li>
+            <li>前天软件数量：0个</li>
+          </ul>
+        </div>
+        <div class="main_box2_bottom"></div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="right_box_top"><img height="5" alt="" width="9" src="/cwbbs/template/images/icon_arrow1.gif" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网站登录</div>
+      <div class="right_box_middle">
+        <iframe style="margin-left: 10px" marginwidth="0" src="iframe_login.jsp" frameborder="0" width="232" scrolling="no" height="140"></iframe>
+      </div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top">
+        <li>站内统计</li>
+      </div>
+      <div class="right_box_middle">
+        <ul>
+          <li>全部文章数量：0篇</li>
+          <li>本年文章数量：0篇</li>
+          <li>本月文章数量：0篇</li>
+          <li>今天文章数量：0篇</li>
+          <li>昨天文章数量：0篇</li>
+          <li>前天文章数量：0篇</li>
+          <li>当前在线人数：0位</li>
+          <li>会员在线人数：0位</li>
+        </ul>
+      </div>
+      <div class="right_box_bottom"></div>
+      <div class="right_box_top"><span>&gt;&gt; <a href="forum/index.jsp">更多</a></span>
+        <li>最新贴子</li>
+      </div>
+      <div class="right_box_middle"><ul><li><a href='/cwbbs/forum/showtopic.jsp?rootid=1&CPages=1'  title='111'>111</a></li></ul></div>
+      <div class="right_box_bottom"></div>
+      <div class="ad_right_box"><img alt="" src="/cwbbs/template/images/ad_right.gif" /></div>
+      <div class="right_box_top"><span>&gt;&gt; <a href="/cwbbs/forum/listtopic.jsp?boardcode=trade&CPages=1&threadType=0">更多</a></span>
+        <li>同城交易</li>
+      </div>
+      <div class="right_box_middle5"><ul></ul></div>
+      <div class="right_box_bottom2"></div>
+      <div class="right_box_top"><span>&gt;&gt; <a href="/cwbbs/listmember.jsp">更多</a></span>
+        <li>最新用户</li>
+      </div>
+      <div class="right_box_middle2"><ul><li><a  href='/cwbbs/userinfo.jsp?username=21'>111</a></li><li><a  href='/cwbbs/userinfo.jsp?username=11'>3</a></li><li><a  href='/cwbbs/userinfo.jsp?username=2'>2</a></li><li><a  href='/cwbbs/userinfo.jsp?username=1'>11</a></li></ul></div>
+      <div class="right_box_bottom"></div>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="linkStyle"><ul></ul></div>
+    <div><script src='/cwbbs/js.jsp?var=ad&dirCode=root&type=footer'></script></div>
+    <script src='/cwbbs/js.jsp?var=ad&dirCode=root&type=couple'></script>
+    <script src='/cwbbs/js.jsp?var=ad&dirCode=root&type=float'></script>
+  </div>
+</div>
+<table width="98%" align="center" border="0">
+<tbody>
+<tr>
+<td valign="bottom"><hr style="height: 1px" color="#cccccc" />
+</td>
+</tr>
+<tr>
+<td style="font-size: 11px; line-height: 180%; font-family: Tahoma, Arial" valign="bottom" align="center">Powered by <strong>CWBBS</strong> <strong style="color: #ff9900">2.5</strong>&nbsp; @ 2005-2007&nbsp;<a style="font-size: 11px; font-family: Tahoma, Arial" target="_blank" href="http://www.cloudwebsoft.com">Cloud Web Soft</a>&nbsp;&nbsp;Gzip enabled&nbsp;&nbsp;<a href="/forum/wap/index.jsp">wap2.0</a> <br />
+QQ：1119032388&nbsp;&nbsp;Email:<a href="mailto:root@cloudwebsoft.com">root@cloudwebsoft.com</a><br />
+<a href="http://www.miibeian.gov.cn">苏ICP备000000</a></td>
+</tr>
+</tbody>
+</table>
+
+<div style="text-align:center">
+  <script src="cms/counter/counter.jsp"></script>
+</div>
+</body>
+</html>
+

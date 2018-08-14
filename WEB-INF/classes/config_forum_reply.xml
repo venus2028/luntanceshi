@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <reply>
+	<!--
+        <scoreReply desc="回复得分值">50</scoreReply>
+        <scoreOwner desc="网友评分总分值">30</scoreOwner>
+        <scoreMaster desc="管理员评分总分值">10</scoreMaster>
+        <scoreTime desc="时限总分值">10</scoreTime>
+        <expireDay desc="超时时限-多少天未回答算超时">2</expireDay>
+        <scoreDeductDay desc="超时一天所扣的分值">1</scoreDeductDay>
+        <statInterval desc="每隔多长时间统计一次本月答复情况（分钟）">1</statInterval>
+	-->
+        <msgTitle desc="短消息标题">提问：%s</msgTitle>
+        <msgContent desc="短消息内容">用户%s：%s</msgContent>
+    </reply>
+</config>
+

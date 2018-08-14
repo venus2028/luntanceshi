@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<basic>
+    <item code="fileType" name="文件类型">
+        <options>
+            <option value=".exe">.exe</option>
+            <option value=".rar">.rar</option>
+            <option value=".zip">.zip</option>
+            <option value=".iso">.iso</option>
+            <option value=".gz">.gz</option>
+        </options>
+        <defaultValue value=".rar">.rar</defaultValue>
+    </item>
+    <item code="lang" name="界面语言">
+        <options>
+            <option value="简体中文">简体中文</option>
+            <option value="英文软件">英文软件</option>
+            <option value="繁体中文">繁体中文</option>
+            <option value="其它类型">其它类型</option>
+        </options>
+        <defaultValue value="dddd">dddd</defaultValue>
+    </item>
+    <item code="softType" name="软件类型">
+        <options>
+            <option value="国产软件">国产软件</option>
+            <option value="国外软件">国外软件</option>
+            <option value="汉化软件">汉化软件</option>
+        </options>
+        <defaultValue value="dddd">dddd</defaultValue>
+    </item>
+    <item code="accredit" name="授权方式">
+        <options>
+            <option value="共享">共享</option>
+            <option value="免费">免费</option>
+            <option value="开源">开源</option>
+            <option value="商业">商业</option>
+            <option value="破解">破解</option>
+            <option value="外挂">外挂</option>
+        </options>
+        <defaultValue value="dddd">dddd</defaultValue>
+    </item>
+    <item code="softRank" name="软件等级">
+        <options>
+            <option value="★">★</option>
+            <option value="★★">★★</option>
+            <option value="★★★">★★★</option>
+            <option value="★★★★">★★★★</option>
+            <option value="★★★★★">★★★★★</option>
+        </options>
+        <defaultValue value="三星">三星</defaultValue>
+    </item>
+</basic>
+

@@ -1,0 +1,20 @@
+@charset "utf-8";
+<!-- /*  播放面板样式表 */
+
+
+A{FONT-SIZE: 12px;TEXT-DECORATION:none ;Color:#000000}
+A:hover{FONT-SIZE: 12px; COLOR: #000000; FONT-FAMILY: "宋体"; BORDER-BOTTOM: 1px dotted; TEXT-DECORATION: none}
+
+
+body,td   { font-family: 'Tahoma','Verdana','Arial'; font-size: 9pt; }
+.bg{background-image:url('image/dot.gif'); background-repeat:repeat-x; background-position:bottom; height:18px }
+
+.title    { font-family: 'Verdana'; font-size: 8pt; color: #000000; }
+
+/* 显示时间长度的样式表设定 */
+.time     { font-family: 'Arial'; font-size: 8pt; color: #000000; }
+
+/* ８点迷你中文字型，请在有需要时，以 <span lang=zh-tw> 语法一起使用 */
+/* .minichi  { font-family: '新宋体','PMingLiU'; font-size: 8pt; } */
+
+//-->

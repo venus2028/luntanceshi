@@ -1,0 +1,472 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	TEXT-ALIGN: center;	
+}
+td {
+font-size:12px;
+}
+.li {
+	line-height: 1.5;
+	list-style-type: none;
+	list-style-position: inside;
+	font-size:12px;
+}
+a:link {
+	color: #333333;
+	text-decoration: none;
+	font-size: 12px;
+}
+a:visited {
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+a:hover {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+.content {
+	margin:0 auto;		/* 居中 这个是必须的，，其它的属性非必须 */
+	text-align: left;
+	width: 778px;
+}
+.top {
+	margin: 0px;
+	padding: 0px;
+	width: 778px;
+	float: left;
+	height: 150px;
+	text-align:left;
+}
+
+.middle {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 778px;
+	background-image:url(images/xzpd_body_back.gif);
+	
+}
+.left {
+	float: left;
+	width: 186px;
+	padding: 0px;
+	
+	display:inline;
+	margin-top: 0px;
+	margin-right: 0px;
+	
+	clear: left;
+	margin-left:17.5px; margin-bottom:8px
+}
+.right {
+	float: left;
+	width: 550px;
+	
+    display:inline;
+	text-align: left;
+	margin-left:7px; margin-right:17.5px;
+}
+.bottom {
+	float: left;
+	height: 18px;
+	width: 778px;
+	margin: 0px;
+	padding-top:12px;
+}
+
+.nav_bg {
+background-image:url(images/nav_bg.gif);
+}
+
+.banner {
+background-image:url(images/xzpd_header.gif);
+}
+
+.tab_title1 {
+background-image:url(images/xzpd_body_01.gif);
+}
+
+.tab_body1 {
+background-image:url(images/xzpd_body_02.gif);
+}
+
+.tab_bottom1 {
+background-image:url(images/xzpd_body_03.gif);
+}
+
+.tab_title2 {
+background-image:url(images/xzpd_body_12.gif);
+}
+
+.tab_body2 {
+background-image:url(images/xzpd_body_13.gif);
+}
+
+.tab_bottom2 {
+background-image:url(images/xzpd_body_14.gif);
+}
+
+.tab_title3 {
+background-image:url(images/xzpd_yqlj_01.gif);
+}
+
+.tab_body3 {
+background-image:url(images/xzpd_yqlj_02.gif);
+}
+
+.tab_bottom3 {
+background-image:url(images/xzpd_yqlj_03.gif);
+}
+
+.banner_title{
+	font-family: "华文行楷";
+	font-size: 45px;
+	font-weight: bold;
+	color: #FF6600;
+    filter:
+        Dropshadow(offx=2,offy=0,color=white)
+        Dropshadow(offx=0,offy=2,color=white)
+        Dropshadow(offx=0,offy=-2,color=white)
+        Dropshadow(offx=-2,offy=0,color=white);
+}
+
+#nav {
+    height: 30px;
+    width: 100%;
+}
+#nav ul {
+    margin: 0 0 0 30px;
+    padding: 0px;
+    font-size: 12px;
+    color: #FFF;
+    line-height: 30px;
+    white-space: nowrap;
+}
+#nav li {
+    list-style-type: none;
+    display: inline;
+}
+#nav li a {
+    text-decoration: none;
+    padding: 7px 10px;
+}
+#nav li a:hover {
+    color: #FF6600;
+}
+.pos1{
+background-image:url(images/xzpd_body_header_01.gif);
+}
+.pos2{
+font-size:12px;
+font-family:"宋体";
+color:#FF0000;
+background-image:url(images/xzpd_body_header_02.gif);
+}
+.pos {
+color:#000000;
+}
+.list ul {
+margin-left:10px;
+margin-right:10px;
+}
+
+.list li {
+	margin:0; padding:0;
+	line-height: 2;
+	list-style-type: none;
+	list-style-position: inside;
+	border-bottom:#999 1px dashed;
+	background:url(images/dot.gif) 5px 0.8em no-repeat;
+}
+
+.list li a:link,a:visited {
+	color:#666666;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.list li a:hover {
+	font-size: 12px;
+	color: #FF6600;
+	text-decoration: underline;
+}
+
+.tab_title4 {
+background-image:url(images/xzpd_body_05.gif);
+}
+
+.tab_body4 {
+background-image:url(images/xzpd_body_06.gif);
+}
+.tab_bottom4{
+background-image:url(images/xzpd_body_07.gif);
+}
+.tab_title5{
+background-image:url(images/xzpd_body_09.gif);
+}
+.tab_bottom5{
+
+}
+
+.tab_title6{
+background-image:url(images/xzpd_body_16.gif);
+}
+.tab_body6{
+background-image:url(images/xzpd_body_17.gif);
+}
+.tab_bottom6{
+background-image:url(images/xzpd_body_18.gif);
+}
+
+.tab_title7{
+background-image:url(images/xzpd_body_31.gif);
+}
+.tab_body7{
+background-image:url(images/xzpd_body_32.gif);
+font-size:12px;
+}
+.tab_bottom7{
+background-image:url(images/xzpd_body_33.gif);
+}
+
+.bottom_title{
+background-image:url(images/xzpd_lower_01.gif);
+}
+
+.tab_title {
+	font-family: "宋体";
+	font-weight: bold;
+	font-size:12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left:50px;
+}
+
+.tab_title4 {
+padding-top:10px;
+}
+
+.tab_title4 a:link {
+	color:#ffffff;
+	text-decoration: none;
+	font-size: 12px;
+}
+.tab_title4 a:visited {
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+}
+.tab_title4 a:hover {
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+}
+
+.pageBlock {
+text-align:right;
+padding-right:20px;
+}
+
+.tab_body3 ul {
+    margin: 0 0 0 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: #FFF;
+    white-space: nowrap;
+}
+.tab_body3 li {
+    list-style-type: none;
+}
+.tab_body3 li a {
+    text-decoration: none;
+    padding: 1px 1px;
+}
+.imgShow ul {
+    margin: 0 0 0 0px;
+    padding: 0px;
+    font-size: 12px;
+    color: #FFF;
+    white-space: nowrap;
+}
+.imgShow li {
+    list-style-type: none;
+    display: inline;
+}
+.imgShow li a {
+    text-decoration: none;
+    padding: 1px 1px;
+}
+
+.guestbook_box {
+	text-align:left;
+	padding:30px;
+}
+.guestbook_box div {
+	padding-bottom:20px;
+	line-height:1.5;
+}
+
+.guestbook_form_table {
+border:1px #eeeeee solid;
+width:60%;
+}
+
+.guestbook_title {
+font-size:14px;
+font-weight:bold;
+background-color: #76C46A;
+color:#ffffff;
+}
+
+
+ul#navmenu {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ /*width: 800px; For KHTML*/
+ list-style: none;
+ height: 24px;
+}
+
+ul#navmenu li {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ float: left; /*For Gecko*/
+ display: inline;
+ list-style: none;
+ position: relative;
+ height: 20px;
+ padding-right:30px;
+}
+
+ul#navmenu ul {
+ margin: 0;
+ border: 0 none;
+ padding: 0;
+ width: 120px;
+ list-style: none;
+ display: none;
+ position: absolute;
+ top: 24px;
+ left: 0;
+}
+
+ul#navmenu ul li {
+ float: none; /*For Gecko*/
+ display: block !important;
+ display: inline; /*For IE*/
+}
+
+/* Root Menu */
+ul#navmenu a {
+/*
+ border: 1px solid #FFF;
+ border-right-color: #CCC;
+ border-bottom-color: #CCC;
+ background: #EEE;
+*/ 
+ padding: 0 6px;
+ float: none !important; /*For Opera*/
+ float: left; /*For IE*/
+ display: block;
+ color: #666;
+ text-decoration: none;
+ height: auto !important;
+ height: 1%; /*For IE*/
+}
+
+/* Root Menu Hover Persistence */
+ul#navmenu a:hover,
+ul#navmenu li:hover a,
+ul#navmenu li.iehover a {
+ /*
+ background: #CCC;
+ */
+ color: #ff5555;
+ height:22px; 
+}
+
+/* 2nd Menu */
+ul#navmenu li:hover li a,
+ul#navmenu li.iehover li a {
+ float: none;
+ background: #EEE;
+ color: #666;
+}
+
+/* 2nd Menu Hover Persistence */
+ul#navmenu li:hover li a:hover,
+ul#navmenu li:hover li:hover a,
+ul#navmenu li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover a {
+ background: #CCC;
+ color: #FFF;
+}
+
+/* 3rd Menu */
+ul#navmenu li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li a {
+ background: #EEE;
+ color: #666;
+}
+
+/* 3rd Menu Hover Persistence */
+ul#navmenu li:hover li:hover li a:hover,
+ul#navmenu li:hover li:hover li:hover a,
+ul#navmenu li.iehover li.iehover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover a {
+ background: #CCC;
+ color: #FFF;
+}
+
+/* 4th Menu */
+ul#navmenu li:hover li:hover li:hover li a,
+ul#navmenu li.iehover li.iehover li.iehover li a {
+ background: #EEE;
+ color: #666;
+}
+
+ul#navmenu li ul li a.fly
+{background:#eee url(images/arrow.gif) 110px 6px no-repeat;}
+ul#navmenu li ul li a.fly:hover
+{background:#ccc url(images/arrow.gif) 110px 6px no-repeat; color: #FFF}
+
+/* 4th Menu Hover */
+ul#navmenu li:hover li:hover li:hover li a:hover,
+ul#navmenu li.iehover li.iehover li.iehover li a:hover {
+ background: #CCC;
+ color: #FFF;
+}
+
+ul#navmenu ul ul,
+ul#navmenu ul ul ul {
+ display: none;
+ position: absolute;
+ top: 0;
+ left: 120px;
+}
+
+/* Do Not Move - Must Come Before display:block for Gecko */
+ul#navmenu li:hover ul ul,
+ul#navmenu li:hover ul ul ul,
+ul#navmenu li.iehover ul ul,
+ul#navmenu li.iehover ul ul ul {
+ display: none;
+}
+
+ul#navmenu li:hover ul,
+ul#navmenu ul li:hover ul,
+ul#navmenu ul ul li:hover ul,
+ul#navmenu li.iehover ul,
+ul#navmenu ul li.iehover ul,
+ul#navmenu ul ul li.iehover ul {
+ display: block;
+}
+

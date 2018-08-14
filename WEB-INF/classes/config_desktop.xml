@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+		<module code="cms_dir">
+			<name>文章目录</name>
+			<isSystem></isSystem>
+			<pageList>doc_list_view.jsp?dirCode=</pageList>
+			<pageShow>doc_view.jsp</pageShow>
+			<className>cn.js.fan.module.cms.ui.desktop.DocListDesktopUnit</className>
+			<type>list</type><!--list or document-->
+			<icon></icon><!--置于标题栏的图标-->
+			<style></style>
+		</module>
+		<module code="forum">
+			<name>论贴</name>
+			<isSystem></isSystem>
+			<pageList>forum/listtopic.jsp?</pageList>
+			<pageShow>forum/showtopic.jsp</pageShow>
+			<className>com.redmoon.forum.ui.ForumDesktopUnit</className>
+			<type>list</type><!--list or document-->
+			<icon></icon><!--置于标题栏的图标-->
+			<style></style>
+		</module>
+		<module code="blog">
+			<name>博客</name>
+			<isSystem></isSystem>
+			<pageList>listmsg.jsp</pageList>
+			<pageShow>blog/showblog.jsp</pageShow>
+			<className>com.redmoon.blog.ui.BlogDesktopUnit</className>
+			<type>list</type><!--list or document-->
+			<icon></icon><!--置于标题栏的图标-->
+			<style></style>
+		</module>				
+		<module code="document">
+			<name>文章</name>
+			<isSystem></isSystem>
+			<pageList>doc_show_notice.jsp?id=</pageList>
+			<pageShow>doc_show_notice.jsp?id=</pageShow>
+			<className>cn.js.fan.module.cms.ui.desktop.DocumentDesktopUnit</className>
+			<type>document</type><!--list or document-->
+			<icon></icon><!--置于标题栏的图标-->
+			<style></style>			
+		</module>	
+		<module code="cms_home">
+			<name>CMS首页</name>
+			<isSystem></isSystem>
+			<pageList>doc_show_notice.jsp?id=</pageList>
+			<pageShow>doc_show_notice.jsp?id=</pageShow>
+			<className>cn.js.fan.module.cms.ui.desktop.CMSDesktopUnit</className>
+			<type>list</type><!--list or document-->
+			<icon></icon><!--置于标题栏的图标-->
+			<style></style>			
+		</module>		
+		<module code="cms_subject_dir">
+			<name>专题目录</name>
+			<isSystem></isSystem>
+			<pageList>subject_list_view.jsp?dirCode=</pageList>
+			<pageShow>subject_view.jsp</pageShow>
+			<className>cn.js.fan.module.cms.ui.desktop.SubjectListDesktopUnit</className>
+			<type>list</type><!--list or document-->
+			<icon></icon><!--置于标题栏的图标-->
+			<style></style>
+		</module>				
+</config>
